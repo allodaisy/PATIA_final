@@ -55,3 +55,10 @@ The library is open source. If you use it, please cite us:
 
 > D. Pellier & H. Fiorino (2017) PDDL4J: a planning domain description library for java, Journal of Experimental & Theoretical Artificial Intelligence, 30:1, 143-176
 https://doi.org/10.1080/0952813X.2017.1409278
+
+## 6. Code
+The path to Arvand static and dynamic Code is pddl4j/src/main/java/fr/uga/pddl4j/examples/asp
+
+## 7. Experiments
+The bash script for batch executing and python script for plotting results are in pddl4j/expe
+
