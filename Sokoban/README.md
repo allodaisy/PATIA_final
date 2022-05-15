@@ -1,4 +1,4 @@
-## Relavant code for solving Sokoban are /Users/daimingming/Downloads/PATIA/Sokoban/src/main/java/sokoban/GenFilePddl.java and /Users/daimingming/Downloads/PATIA/Sokoban/src/main/java/sokoban/SokobanMain.java
+### Relavant code for solving Sokoban are /Users/daimingming/Downloads/PATIA/Sokoban/src/main/java/sokoban/GenFilePddl.java and /Users/daimingming/Downloads/PATIA/Sokoban/src/main/java/sokoban/SokobanMain.java
 
 Play the game on [CodinGame](https://www.codingame.com/training/hard/sokoban)
 
