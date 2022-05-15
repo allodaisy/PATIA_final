@@ -1,0 +1,90 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p08.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (10260 actions, 472 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (     drink okra wonderbread bosnia pennsylvania goias goias pennsylvania) [0]
+01: (                        overcome anxiety stimulation muffin earth uranus) [0]
+02: (        drink pork flounder bosnia pennsylvania goias goias pennsylvania) [0]
+03: (       drink baguette pork bosnia pennsylvania goias pennsylvania bosnia) [0]
+04: (             drink scallop pork pennsylvania goias bavaria bosnia surrey) [0]
+05: (    drink tomato cantelope bosnia pennsylvania goias pennsylvania bosnia) [0]
+06: (         drink wonderbread rice pennsylvania goias bavaria bavaria goias) [0]
+07: (                      feast aesthetics scallop wonderbread bavaria goias) [0]
+08: (          drink baguette muffin pennsylvania goias bavaria bavaria goias) [0]
+09: (         drink tomato cantelope pennsylvania goias bavaria bosnia surrey) [0]
+10: (         drink pork pepper surrey bosnia pennsylvania goias pennsylvania) [0]
+11: (      drink tuna flounder surrey bosnia pennsylvania pennsylvania bosnia) [0]
+12: (   drink pistachio pepper pennsylvania goias bavaria pennsylvania bosnia) [0]
+13: (          drink okra okra pennsylvania goias bavaria pennsylvania bosnia) [0]
+14: (          drink pepper okra bosnia pennsylvania goias goias pennsylvania) [0]
+15: (          drink okra tomato bosnia pennsylvania goias goias pennsylvania) [0]
+16: (   drink cantelope tomato surrey bosnia pennsylvania pennsylvania bosnia) [0]
+17: (          drink tuna turkey bosnia pennsylvania goias goias pennsylvania) [0]
+18: (        drink tuna turkey pennsylvania goias bavaria pennsylvania bosnia) [0]
+19: (                             feast stimulation muffin tuna bavaria goias) [0]
+20: (   drink cantelope baguette bosnia pennsylvania goias goias pennsylvania) [0]
+21: ( drink cantelope baguette pennsylvania goias bavaria pennsylvania bosnia) [0]
+22: (            drink pepper hotdog pennsylvania goias bavaria bavaria goias) [0]
+23: (             drink turkey tomato bosnia pennsylvania goias bosnia surrey) [0]
+24: (                                 feast triumph hotdog okra bavaria goias) [0]
+25: (                          feast excitement tomato baguette bosnia surrey) [0]
+26: (      drink turkey turkey pennsylvania goias bavaria pennsylvania bosnia) [0]
+27: (          drink pork turkey bosnia pennsylvania goias goias pennsylvania) [0]
+28: (        drink turkey pepper bosnia pennsylvania goias goias pennsylvania) [0]
+29: (       drink baguette pork bosnia pennsylvania goias pennsylvania bosnia) [0]
+30: (               drink pork hotdog bosnia pennsylvania goias bavaria goias) [0]
+31: (                          feast learning cantelope arugula bavaria goias) [0]
+32: (        drink flounder rice bosnia pennsylvania goias goias pennsylvania) [0]
+33: (                       feast triumph okra wonderbread goias pennsylvania) [0]
+34: (      drink flounder pork pennsylvania goias bavaria pennsylvania bosnia) [0]
+35: (      drink pepper turkey pennsylvania goias bavaria pennsylvania bosnia) [0]
+36: (   drink baguette flounder pennsylvania goias bavaria goias pennsylvania) [0]
+37: (         drink flounder scallop pennsylvania goias bavaria bavaria goias) [0]
+38: (          drink rice rice pennsylvania goias bavaria pennsylvania bosnia) [0]
+39: (            drink pork rice bosnia pennsylvania goias goias pennsylvania) [0]
+40: (          drink pork rice pennsylvania goias bavaria pennsylvania bosnia) [0]
+41: (          drink turkey tofu bosnia pennsylvania goias goias pennsylvania) [0]
+42: (                               feast stimulation tuna okra bavaria goias) [0]
+43: (         drink rice scallop bosnia pennsylvania goias goias pennsylvania) [0]
+44: (                        feast triumph wonderbread flounder bavaria goias) [0]
+45: (       drink rice flounder pennsylvania goias bavaria goias pennsylvania) [0]
+46: (             drink scallop tuna pennsylvania goias bavaria bavaria goias) [0]
+47: (                          feast excitement baguette tomato bavaria goias) [0]
+48: (          drink flounder tomato pennsylvania goias bavaria bosnia surrey) [0]
+49: (                              overcome sciatica love okra vulcan jupiter) [0]
+50: (      drink tofu pistachio pennsylvania goias bavaria goias pennsylvania) [0]
+51: (      drink turkey turkey pennsylvania goias bavaria pennsylvania bosnia) [0]
+52: (          drink turkey pork bosnia pennsylvania goias goias pennsylvania) [0]
+53: (drink pistachio pistachio pennsylvania goias bavaria pennsylvania bosnia) [0]
+54: (       drink tomato wonderbread surrey bosnia pennsylvania bavaria goias) [0]
+55: (         drink turkey tuna pennsylvania goias bavaria goias pennsylvania) [0]
+56: (                               feast rest wonderbread okra bavaria goias) [0]
+57: (                     feast excitement tomato scallop pennsylvania bosnia) [0]
+58: (       drink pork flounder pennsylvania goias bavaria goias pennsylvania) [0]
+59: (       drink pistachio cantelope bosnia pennsylvania goias bavaria goias) [0]
+60: (       drink tomato pepper pennsylvania goias bavaria goias pennsylvania) [0]
+61: (         drink pepper rice pennsylvania goias bavaria goias pennsylvania) [0]
+62: (                        feast stimulation okra wonderbread bavaria goias) [0]
+63: (         drink rice tomato pennsylvania goias bavaria goias pennsylvania) [0]
+64: (       drink tomato turkey pennsylvania goias bavaria goias pennsylvania) [0]
+65: (                    succumb anxiety stimulation wonderbread earth uranus) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.84 seconds encoding 
+                  2.90 seconds searching
+                  3.76 seconds total time
+
+memory used:     22.16 MBytes for problem representation
+                  0.00 MBytes for searching
+                 22.16 MBytes total
+
+

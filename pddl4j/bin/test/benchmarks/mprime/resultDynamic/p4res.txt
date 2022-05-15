@@ -1,0 +1,74 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p04.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (1452 actions, 172 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (        drink cherry ham kentucky oregon bosnia bosnia oregon) [0]
+01: (                 feast aesthetics shrimp cherry quebec bosnia) [0]
+02: (     drink muffin shrimp kentucky oregon bosnia quebec bosnia) [0]
+03: (   drink scallop scallop oregon bosnia quebec oregon kentucky) [0]
+04: (   drink scallop scallop kentucky oregon bosnia bosnia oregon) [0]
+05: (    drink shrimp scallop bosnia quebec surrey oregon kentucky) [0]
+06: (drink arugula grapefruit kentucky oregon bosnia surrey quebec) [0]
+07: (                feast aesthetics cherry arugula bosnia oregon) [0]
+08: (drink scallop grapefruit kentucky oregon bosnia quebec bosnia) [0]
+09: (      drink scallop cherry oregon bosnia quebec bosnia oregon) [0]
+10: (    drink arugula cherry oregon bosnia quebec oregon kentucky) [0]
+11: (      drink ham grapefruit oregon bosnia quebec bosnia oregon) [0]
+12: (    drink scallop scallion bosnia quebec surrey quebec bosnia) [0]
+13: (                 feast aesthetics arugula wurst quebec bosnia) [0]
+14: (       drink muffin shrimp oregon bosnia quebec quebec bosnia) [0]
+15: (      drink scallion wurst bosnia quebec surrey surrey quebec) [0]
+16: (              feast aesthetics wurst grapefruit surrey quebec) [0]
+17: (   drink grapefruit muffin oregon bosnia quebec bosnia oregon) [0]
+18: (       drink shrimp shrimp bosnia quebec surrey bosnia oregon) [0]
+19: (     drink muffin muffin oregon bosnia quebec oregon kentucky) [0]
+20: (          overcome sciatica aesthetics grapefruit mars vulcan) [0]
+21: (   drink cherry scallion kentucky oregon bosnia quebec bosnia) [0]
+22: (     drink muffin muffin kentucky oregon bosnia bosnia oregon) [0]
+23: (          drink ham shrimp bosnia quebec surrey quebec bosnia) [0]
+24: (      drink scallion wurst bosnia quebec surrey surrey quebec) [0]
+25: (    drink grapefruit bacon bosnia quebec surrey quebec bosnia) [0]
+26: (     drink cherry cherry oregon bosnia quebec oregon kentucky) [0]
+27: (     drink muffin muffin oregon bosnia quebec oregon kentucky) [0]
+28: (     drink cherry cherry kentucky oregon bosnia bosnia oregon) [0]
+29: (        drink muffin ham kentucky oregon bosnia quebec bosnia) [0]
+30: (   drink shrimp grapefruit oregon bosnia quebec quebec bosnia) [0]
+31: ( drink grapefruit scallion bosnia quebec surrey quebec bosnia) [0]
+32: (       drink shrimp shrimp bosnia quebec surrey bosnia oregon) [0]
+33: (        drink muffin wurst bosnia quebec surrey quebec bosnia) [0]
+34: (           drink bacon ham bosnia quebec surrey bosnia oregon) [0]
+35: (   drink shrimp grapefruit oregon bosnia quebec quebec bosnia) [0]
+36: (       drink muffin shrimp oregon bosnia quebec bosnia oregon) [0]
+37: (       drink wurst arugula bosnia quebec surrey quebec bosnia) [0]
+38: (              feast aesthetics grapefruit wurst quebec bosnia) [0]
+39: (       drink muffin muffin bosnia quebec surrey quebec bosnia) [0]
+40: (  drink arugula grapefruit bosnia quebec surrey quebec bosnia) [0]
+41: (     drink scallion muffin bosnia quebec surrey quebec bosnia) [0]
+42: (     drink muffin scallion bosnia quebec surrey quebec bosnia) [0]
+43: (     drink cherry scallion oregon bosnia quebec bosnia oregon) [0]
+44: (       drink cherry cherry bosnia quebec surrey bosnia oregon) [0]
+45: ( drink grapefruit shrimp bosnia quebec surrey oregon kentucky) [0]
+46: (        drink cherry wurst oregon bosnia quebec quebec bosnia) [0]
+47: (         drink wurst bacon bosnia quebec surrey quebec bosnia) [0]
+48: (         drink ham arugula oregon bosnia quebec quebec bosnia) [0]
+49: (                succumb sciatica aesthetics wurst mars vulcan) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.27 seconds encoding 
+                  0.23 seconds searching
+                  0.53 seconds total time
+
+memory used:      3.09 MBytes for problem representation
+                  0.00 MBytes for searching
+                  3.09 MBytes total
+
+

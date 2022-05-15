@@ -1,0 +1,54 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p01.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (36 actions, 20 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( pick ball2 rooma left) [0]
+01: (pick ball3 rooma right) [0]
+02: (drop ball3 rooma right) [0]
+03: (pick ball1 rooma right) [0]
+04: (      move rooma roomb) [0]
+05: (drop ball1 roomb right) [0]
+06: ( drop ball2 roomb left) [0]
+07: (pick ball2 roomb right) [0]
+08: (drop ball2 roomb right) [0]
+09: ( pick ball2 roomb left) [0]
+10: ( drop ball2 roomb left) [0]
+11: (      move roomb roomb) [0]
+12: (      move roomb rooma) [0]
+13: ( pick ball4 rooma left) [0]
+14: (      move rooma rooma) [0]
+15: (      move rooma roomb) [0]
+16: (      move roomb rooma) [0]
+17: (      move rooma rooma) [0]
+18: (pick ball3 rooma right) [0]
+19: (      move rooma roomb) [0]
+20: (drop ball3 roomb right) [0]
+21: (pick ball3 roomb right) [0]
+22: ( drop ball4 roomb left) [0]
+23: ( pick ball1 roomb left) [0]
+24: (      move roomb rooma) [0]
+25: (      move rooma roomb) [0]
+26: ( drop ball1 roomb left) [0]
+27: (      move roomb roomb) [0]
+28: (drop ball3 roomb right) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.03 seconds encoding 
+                  0.03 seconds searching
+                  0.09 seconds total time
+
+memory used:      0.10 MBytes for problem representation
+                  0.00 MBytes for searching
+                  0.10 MBytes total
+
+

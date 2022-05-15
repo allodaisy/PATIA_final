@@ -1,0 +1,43 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p03.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (3308 actions, 265 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (       drink ham mutton manitoba arizona bavaria guanabara bavaria) [0]
+01: (     drink snickers orange bavaria guanabara goias bavaria arizona) [0]
+02: (                       feast love orange chocolate bavaria arizona) [0]
+03: (drink popover snickers arizona bavaria guanabara guanabara bavaria) [0]
+04: (       drink popover lemon bavaria guanabara goias goias guanabara) [0]
+05: (                    overcome hangover love chocolate venus neptune) [0]
+06: (   drink snickers marzipan bavaria guanabara goias bavaria arizona) [0]
+07: (         drink melon ham manitoba arizona bavaria arizona manitoba) [0]
+08: (   drink melon marzipan arizona bavaria guanabara arizona manitoba) [0]
+09: (       drink pea popover bavaria guanabara goias guanabara bavaria) [0]
+10: (                          feast love chocolate ham goias guanabara) [0]
+11: (                 feast satisfaction mutton melon guanabara bavaria) [0]
+12: (     drink marzipan pea manitoba arizona bavaria guanabara bavaria) [0]
+13: (       drink pepper melon manitoba arizona bavaria bavaria arizona) [0]
+14: (       drink pea marzipan bavaria guanabara goias arizona manitoba) [0]
+15: (                      feast satisfaction melon ham bavaria arizona) [0]
+16: (     drink orange mutton bavaria guanabara goias guanabara bavaria) [0]
+17: (                           succumb hangover love ham venus neptune) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.39 seconds encoding 
+                  8.88 seconds searching
+                  9.30 seconds total time
+
+memory used:      7.04 MBytes for problem representation
+                  0.00 MBytes for searching
+                  7.04 MBytes total
+
+

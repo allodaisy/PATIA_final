@@ -1,0 +1,42 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p01.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (1266 actions, 95 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( drink pork pear quebec alsace pennsylvania surrey pennsylvania) [0]
+01: (                       overcome abrasion rest pork uranus venus) [0]
+02: (                       feast rest pork lamb pennsylvania alsace) [0]
+03: (   drink pork flounder pennsylvania surrey bosnia alsace quebec) [0]
+04: ( drink lamb pear pennsylvania surrey bosnia pennsylvania alsace) [0]
+05: (    drink pork flounder surrey bosnia kentucky quebec guanabara) [0]
+06: (    drink okra lamb guanabara quebec alsace surrey pennsylvania) [0]
+07: (                   feast rest lamb flounder surrey pennsylvania) [0]
+08: (           drink lamb pear surrey bosnia kentucky alsace quebec) [0]
+09: (      drink flounder rice guanabara quebec alsace bosnia surrey) [0]
+10: (drink pear flounder quebec alsace pennsylvania quebec guanabara) [0]
+11: ( drink okra rice quebec alsace pennsylvania surrey pennsylvania) [0]
+12: (                      feast rest flounder rice quebec guanabara) [0]
+13: (       drink rice pork pennsylvania surrey bosnia bosnia surrey) [0]
+14: (           drink pork okra surrey bosnia kentucky alsace quebec) [0]
+15: (       drink pear pork alsace pennsylvania surrey bosnia surrey) [0]
+16: (                        succumb abrasion rest rice uranus venus) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.20 seconds encoding 
+                  2.29 seconds searching
+                  2.51 seconds total time
+
+memory used:      2.65 MBytes for problem representation
+                  0.00 MBytes for searching
+                  2.65 MBytes total
+
+

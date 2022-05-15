@@ -1,0 +1,99 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p02.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (4268 actions, 326 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (            overcome dread-8 entertainment ham pluto jupiter) [0]
+01: (          feast stimulation flounder cherry arizona kentucky) [0]
+02: (     drink onion onion bosnia kentucky arizona bosnia surrey) [0]
+03: (                    feast satiety onion cherry bosnia surrey) [0]
+04: (    drink muffin onion kentucky arizona alsace bosnia surrey) [0]
+05: (             overcome boils-4 entertainment ham vulcan pluto) [0]
+06: (   drink onion onion kentucky arizona alsace kentucky bosnia) [0]
+07: (              succumb dread-8 entertainment ham vulcan pluto) [0]
+08: (             succumb boils-4 entertainment ham pluto jupiter) [0]
+09: (   drink beef muffin surrey bosnia kentucky arizona kentucky) [0]
+10: (     drink onion tuna surrey bosnia kentucky kentucky bosnia) [0]
+11: (            overcome grief-7 entertainment ham pluto jupiter) [0]
+12: (    drink muffin onion kentucky arizona alsace bosnia surrey) [0]
+13: (                  feast entertainment ham tuna bosnia surrey) [0]
+14: (              overcome boils entertainment tuna vulcan pluto) [0]
+15: (             feast stimulation cherry flounder bosnia surrey) [0]
+16: (       drink onion beef surrey bosnia kentucky bosnia surrey) [0]
+17: (           overcome jealousy-2 curiosity cherry vulcan pluto) [0]
+18: (   drink tuna onion bosnia kentucky arizona arizona kentucky) [0]
+19: (    drink onion cherry bosnia kentucky arizona bosnia surrey) [0]
+20: (               feast curiosity cherry flounder bosnia surrey) [0]
+21: ( drink ham flounder bosnia kentucky arizona arizona kentucky) [0]
+22: (          succumb jealousy-2 curiosity flounder vulcan pluto) [0]
+23: (      drink beef tuna surrey bosnia kentucky kentucky bosnia) [0]
+24: (             feast entertainment tuna muffin kentucky bosnia) [0]
+25: (     drink beef cherry bosnia kentucky arizona bosnia surrey) [0]
+26: (         overcome jealousy-2 curiosity flounder vulcan pluto) [0]
+27: (drink cherry flounder surrey bosnia kentucky kentucky bosnia) [0]
+28: (   overcome depression-1 entertainment muffin mercury vulcan) [0]
+29: (   drink ham muffin kentucky arizona alsace arizona kentucky) [0]
+30: (               feast satiety cherry flounder kentucky bosnia) [0]
+31: (         overcome jealousy stimulation flounder vulcan pluto) [0]
+32: ( drink cherry muffin kentucky arizona alsace kentucky bosnia) [0]
+33: ( drink flounder muffin bosnia kentucky arizona bosnia surrey) [0]
+34: (drink flounder onion kentucky arizona alsace kentucky bosnia) [0]
+35: (    drink onion beef bosnia kentucky arizona kentucky bosnia) [0]
+36: (     drink beef ham bosnia kentucky arizona arizona kentucky) [0]
+37: (              feast stimulation flounder tuna alsace arizona) [0]
+38: (          overcome anxiety curiosity flounder mercury vulcan) [0]
+39: (              succumb jealousy stimulation tuna vulcan pluto) [0]
+40: (            feast stimulation tuna flounder arizona kentucky) [0]
+41: (    drink onion beef kentucky arizona alsace kentucky bosnia) [0]
+42: (      drink muffin beef surrey bosnia kentucky bosnia surrey) [0]
+43: (             feast entertainment muffin tuna kentucky bosnia) [0]
+44: (           succumb anxiety curiosity flounder mercury vulcan) [0]
+45: (drink muffin flounder kentucky arizona alsace alsace arizona) [0]
+46: (            feast stimulation flounder cherry alsace arizona) [0]
+47: (   drink beef cherry surrey bosnia kentucky arizona kentucky) [0]
+48: ( drink cherry cherry kentucky arizona alsace kentucky bosnia) [0]
+49: (    drink cherry ham bosnia kentucky arizona kentucky bosnia) [0]
+50: (drink cherry cherry kentucky arizona alsace arizona kentucky) [0]
+51: (        drink beef ham bosnia kentucky arizona bosnia surrey) [0]
+52: (               feast stimulation cherry onion alsace arizona) [0]
+53: (  drink cherry tuna kentucky arizona alsace arizona kentucky) [0]
+54: (                 feast stimulation onion beef alsace arizona) [0]
+55: (     drink tuna tuna kentucky arizona alsace kentucky bosnia) [0]
+56: (     drink beef beef kentucky arizona alsace kentucky bosnia) [0]
+57: (  drink tuna muffin bosnia kentucky arizona arizona kentucky) [0]
+58: (                overcome anger stimulation beef vulcan pluto) [0]
+59: (                 succumb anger stimulation beef vulcan pluto) [0]
+60: (                feast entertainment tuna beef alsace arizona) [0]
+61: (     drink ham muffin surrey bosnia kentucky kentucky bosnia) [0]
+62: (      drink ham tuna bosnia kentucky arizona kentucky bosnia) [0]
+63: (     drink beef muffin bosnia kentucky arizona bosnia surrey) [0]
+64: ( drink muffin cherry surrey bosnia kentucky arizona kentucky) [0]
+65: (           overcome depression stimulation beef vulcan pluto) [0]
+66: (drink cherry flounder kentucky arizona alsace alsace arizona) [0]
+67: (                 feast stimulation beef onion alsace arizona) [0]
+68: (           succumb grief-7 entertainment beef mercury vulcan) [0]
+69: (     drink tuna beef bosnia kentucky arizona kentucky bosnia) [0]
+70: (   drink muffin onion bosnia kentucky arizona alsace arizona) [0]
+71: (         overcome abrasion entertainment beef mercury vulcan) [0]
+72: (        overcome loneliness stimulation onion mercury vulcan) [0]
+73: (     drink tuna tuna kentucky arizona alsace kentucky bosnia) [0]
+74: (      succumb depression-1 entertainment beef mercury vulcan) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.38 seconds encoding 
+                  1.10 seconds searching
+                  1.51 seconds total time
+
+memory used:      9.16 MBytes for problem representation
+                  0.00 MBytes for searching
+                  9.16 MBytes total
+
+

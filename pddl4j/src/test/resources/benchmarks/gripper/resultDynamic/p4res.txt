@@ -1,0 +1,122 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p04.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (84 actions, 44 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( pick ball3 rooma right) [0]
+01: (  pick ball9 rooma left) [0]
+02: (       move rooma roomb) [0]
+03: (       move roomb roomb) [0]
+04: ( drop ball3 roomb right) [0]
+05: (  drop ball9 roomb left) [0]
+06: (  pick ball9 roomb left) [0]
+07: (  drop ball9 roomb left) [0]
+08: ( pick ball9 roomb right) [0]
+09: ( drop ball9 roomb right) [0]
+10: (       move roomb rooma) [0]
+11: (  pick ball6 rooma left) [0]
+12: (       move rooma rooma) [0]
+13: (       move rooma roomb) [0]
+14: ( pick ball3 roomb right) [0]
+15: ( drop ball3 roomb right) [0]
+16: (  drop ball6 roomb left) [0]
+17: (  pick ball9 roomb left) [0]
+18: (       move roomb rooma) [0]
+19: (  drop ball9 rooma left) [0]
+20: (  pick ball5 rooma left) [0]
+21: ( pick ball4 rooma right) [0]
+22: (       move rooma rooma) [0]
+23: (       move rooma roomb) [0]
+24: (  drop ball5 roomb left) [0]
+25: ( drop ball4 roomb right) [0]
+26: ( pick ball4 roomb right) [0]
+27: (       move roomb rooma) [0]
+28: (       move rooma rooma) [0]
+29: (  pick ball9 rooma left) [0]
+30: (       move rooma roomb) [0]
+31: (       move roomb roomb) [0]
+32: ( drop ball4 roomb right) [0]
+33: (  drop ball9 roomb left) [0]
+34: (  pick ball5 roomb left) [0]
+35: (       move roomb rooma) [0]
+36: ( pick ball1 rooma right) [0]
+37: (       move rooma roomb) [0]
+38: (       move roomb rooma) [0]
+39: (       move rooma rooma) [0]
+40: ( drop ball1 rooma right) [0]
+41: ( pick ball8 rooma right) [0]
+42: (       move rooma rooma) [0]
+43: (       move rooma rooma) [0]
+44: (       move rooma roomb) [0]
+45: ( drop ball8 roomb right) [0]
+46: (  drop ball5 roomb left) [0]
+47: (       move roomb rooma) [0]
+48: (       move rooma roomb) [0]
+49: (       move roomb rooma) [0]
+50: (  pick ball1 rooma left) [0]
+51: (  drop ball1 rooma left) [0]
+52: (  pick ball2 rooma left) [0]
+53: (       move rooma rooma) [0]
+54: (pick ball10 rooma right) [0]
+55: (drop ball10 rooma right) [0]
+56: (  drop ball2 rooma left) [0]
+57: (  pick ball7 rooma left) [0]
+58: (pick ball10 rooma right) [0]
+59: (       move rooma rooma) [0]
+60: (       move rooma rooma) [0]
+61: (       move rooma rooma) [0]
+62: (       move rooma roomb) [0]
+63: (drop ball10 roomb right) [0]
+64: (       move roomb roomb) [0]
+65: ( pick ball6 roomb right) [0]
+66: (       move roomb rooma) [0]
+67: (       move rooma roomb) [0]
+68: (       move roomb roomb) [0]
+69: (  drop ball7 roomb left) [0]
+70: (  pick ball8 roomb left) [0]
+71: (       move roomb rooma) [0]
+72: (       move rooma roomb) [0]
+73: (       move roomb roomb) [0]
+74: (       move roomb roomb) [0]
+75: (       move roomb roomb) [0]
+76: (  drop ball8 roomb left) [0]
+77: (       move roomb rooma) [0]
+78: (  pick ball1 rooma left) [0]
+79: (       move rooma rooma) [0]
+80: (       move rooma roomb) [0]
+81: (  drop ball1 roomb left) [0]
+82: (  pick ball8 roomb left) [0]
+83: (  drop ball8 roomb left) [0]
+84: (       move roomb rooma) [0]
+85: ( drop ball6 rooma right) [0]
+86: (       move rooma rooma) [0]
+87: ( pick ball2 rooma right) [0]
+88: (       move rooma roomb) [0]
+89: (       move roomb rooma) [0]
+90: (  pick ball6 rooma left) [0]
+91: (       move rooma rooma) [0]
+92: (       move rooma roomb) [0]
+93: (       move roomb roomb) [0]
+94: (       move roomb roomb) [0]
+95: ( drop ball2 roomb right) [0]
+96: (  drop ball6 roomb left) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.04 seconds encoding 
+                  0.09 seconds searching
+                  0.15 seconds total time
+
+memory used:      0.21 MBytes for problem representation
+                  0.00 MBytes for searching
+                  0.21 MBytes total
+
+

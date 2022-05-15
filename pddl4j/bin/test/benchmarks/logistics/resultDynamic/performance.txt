@@ -1,0 +1,100 @@
+Test 1 :
+Final value: 113 
+                  0.16 seconds total time
+                  0.29 MBytes total
+Test 2 :
+Final value: 79 
+                  0.10 seconds total time
+                  0.29 MBytes total
+Test 3 :
+Final value: 99 
+                  0.13 seconds total time
+                  0.29 MBytes total
+Test 4 :
+Final value: 120 
+                  0.14 seconds total time
+                  0.29 MBytes total
+Test 5 :
+Final value: 128 
+                  0.16 seconds total time
+                  0.29 MBytes total
+Test 6 :
+Final value: 42 
+                  0.08 seconds total time
+                  0.29 MBytes total
+Test 7 :
+Final value: 133 
+                  0.15 seconds total time
+                  0.29 MBytes total
+Test 8 :
+Final value: 93 
+                  0.12 seconds total time
+                  0.29 MBytes total
+Test 9 :
+Final value: 116 
+                  0.13 seconds total time
+                  0.29 MBytes total
+Test 10 :
+Final value: 143 
+                  0.17 seconds total time
+                  0.29 MBytes total
+Test 11 :
+Final value: 227 
+                  0.44 seconds total time
+                  0.77 MBytes total
+Test 12 :
+Final value: 181 
+                 21.02 seconds total time
+                  0.77 MBytes total
+Test 13 :
+Final value: 241 
+                  0.50 seconds total time
+                  0.77 MBytes total
+Test 14 :
+Final value: 266 
+                  0.42 seconds total time
+                  0.77 MBytes total
+Test 15 :
+Final value: 258 
+                  0.40 seconds total time
+                  0.78 MBytes total
+Test 16 :
+Final value: 329 
+                  0.54 seconds total time
+                  0.78 MBytes total
+Test 17 :
+Final value: 311 
+                  0.70 seconds total time
+                  1.66 MBytes total
+Test 18 :
+Final value: 428 
+                  0.82 seconds total time
+                  1.66 MBytes total
+Test 19 :
+Test 20 :
+Final value: 413 
+                  0.75 seconds total time
+                  1.66 MBytes total
+Test 21 :
+Test 22 :
+Final value: 442 
+                  0.87 seconds total time
+                  1.66 MBytes total
+Test 23 :
+Test 24 :
+Final value: 507 
+                  1.84 seconds total time
+                  3.38 MBytes total
+Test 25 :
+Final value: 444 
+                  1.37 seconds total time
+                  3.38 MBytes total
+Test 26 :
+Final value: 834 
+                  2.55 seconds total time
+                  3.38 MBytes total
+Test 27 :
+Final value: 710 
+                  2.07 seconds total time
+                  3.38 MBytes total
+Test 28 :

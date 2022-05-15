@@ -1,0 +1,55 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p08.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (10260 actions, 472 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (drink tomato wonderbread bosnia pennsylvania goias goias pennsylvania) [0]
+01: (        drink pistachio pork pennsylvania goias bavaria bosnia surrey) [0]
+02: (          drink baguette rice bosnia pennsylvania goias bavaria goias) [0]
+03: (                     overcome anxiety stimulation muffin earth uranus) [0]
+04: ( drink okra wonderbread bosnia pennsylvania goias pennsylvania bosnia) [0]
+05: (     drink tomato okra pennsylvania goias bavaria pennsylvania bosnia) [0]
+06: (     drink wonderbread muffin bosnia pennsylvania goias bavaria goias) [0]
+07: (      drink tuna turkey surrey bosnia pennsylvania goias pennsylvania) [0]
+08: (                            feast achievement rice tofu bavaria goias) [0]
+09: (                          feast stimulation muffin tuna bavaria goias) [0]
+10: (            drink okra hotdog bosnia pennsylvania goias bavaria goias) [0]
+11: (      drink wonderbread tuna pennsylvania goias bavaria bosnia surrey) [0]
+12: (  drink okra cantelope pennsylvania goias bavaria pennsylvania bosnia) [0]
+13: (   drink tuna baguette surrey bosnia pennsylvania pennsylvania bosnia) [0]
+14: (        drink pork tofu surrey bosnia pennsylvania goias pennsylvania) [0]
+15: (                      feast stimulation tuna okra pennsylvania bosnia) [0]
+16: (                     feast stimulation okra wonderbread bavaria goias) [0]
+17: (        drink scallop muffin pennsylvania goias bavaria bavaria goias) [0]
+18: (                           overcome sciatica love okra vulcan jupiter) [0]
+19: ( drink turkey pistachio pennsylvania goias bavaria goias pennsylvania) [0]
+20: (          drink baguette rice bosnia pennsylvania goias bavaria goias) [0]
+21: (             drink tofu pork pennsylvania goias bavaria bosnia surrey) [0]
+22: (                          feast achievement tofu hotdog bavaria goias) [0]
+23: (         drink cantelope tofu bosnia pennsylvania goias bavaria goias) [0]
+24: (      drink pork tomato surrey bosnia pennsylvania goias pennsylvania) [0]
+25: ( drink pistachio muffin pennsylvania goias bavaria goias pennsylvania) [0]
+26: (      drink baguette arugula pennsylvania goias bavaria bavaria goias) [0]
+27: (    drink muffin turkey pennsylvania goias bavaria goias pennsylvania) [0]
+28: (     drink tuna turkey pennsylvania goias bavaria pennsylvania bosnia) [0]
+29: (                 succumb anxiety stimulation wonderbread earth uranus) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.59 seconds encoding 
+                 91.53 seconds searching
+                 92.15 seconds total time
+
+memory used:     22.16 MBytes for problem representation
+                  0.00 MBytes for searching
+                 22.16 MBytes total
+
+

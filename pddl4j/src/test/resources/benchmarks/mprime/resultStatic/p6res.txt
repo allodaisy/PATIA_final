@@ -1,0 +1,102 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p06.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (25284 actions, 713 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( drink pistachio scallop alsace kentucky surrey surrey kentucky) [0]
+01: (                         feast love tomato tuna kentucky alsace) [0]
+02: (   drink wonderbread cantelope quebec goias alsace goias quebec) [0]
+03: (     drink mutton mutton kentucky surrey bosnia kentucky alsace) [0]
+04: (                        overcome anger rest popover mars saturn) [0]
+05: (               feast achievement chicken papaya surrey kentucky) [0]
+06: (          drink bacon beef arizona quebec goias kentucky alsace) [0]
+07: (     drink muffin marzipan alsace kentucky surrey bosnia surrey) [0]
+08: (   drink turkey cantelope alsace kentucky surrey quebec arizona) [0]
+09: (        drink mutton potato alsace kentucky surrey alsace goias) [0]
+10: (       drink tuna papaya alsace kentucky surrey surrey kentucky) [0]
+11: (    drink mutton popover kentucky surrey bosnia surrey kentucky) [0]
+12: (    drink tuna pistachio kentucky surrey bosnia kentucky alsace) [0]
+13: (     drink potato chicken goias alsace kentucky surrey kentucky) [0]
+14: (   drink scallop popover kentucky surrey bosnia kentucky alsace) [0]
+15: (     drink onion wonderbread goias alsace kentucky goias quebec) [0]
+16: (         drink bacon tomato quebec goias alsace kentucky alsace) [0]
+17: (     drink tomato papaya alsace kentucky surrey kentucky alsace) [0]
+18: (                        feast rest popover rice kentucky alsace) [0]
+19: (           drink bacon rice goias alsace kentucky bosnia surrey) [0]
+20: (          drink beef papaya alsace kentucky surrey alsace goias) [0]
+21: (   drink beef wonderbread kentucky surrey bosnia quebec arizona) [0]
+22: (                             feast rest rice tuna bosnia surrey) [0]
+23: (      drink popover tuna kentucky surrey bosnia surrey kentucky) [0]
+24: (                            succumb anger rest tuna mars saturn) [0]
+25: (     drink bacon popover alsace kentucky surrey surrey kentucky) [0]
+26: (                         feast love tuna tomato surrey kentucky) [0]
+27: (              feast lubricity wonderbread turkey quebec arizona) [0]
+28: (drink chicken wonderbread kentucky surrey bosnia quebec arizona) [0]
+29: (   drink wonderbread snickers arizona quebec goias goias quebec) [0]
+30: (                    feast excitement scallop beef bosnia surrey) [0]
+31: (        drink popover rice kentucky surrey bosnia bosnia surrey) [0]
+32: (      drink papaya muffin goias alsace kentucky kentucky alsace) [0]
+33: (        drink snickers beef quebec goias alsace surrey kentucky) [0]
+34: (                  overcome abrasion excitement beef mars saturn) [0]
+35: (         drink bacon potato kentucky surrey bosnia alsace goias) [0]
+36: (                  feast achievement papaya beef kentucky alsace) [0]
+37: (   drink snickers popover goias alsace kentucky surrey kentucky) [0]
+38: (                    feast achievement beef tuna surrey kentucky) [0]
+39: (     drink tomato turkey kentucky surrey bosnia kentucky alsace) [0]
+40: (              feast aesthetics cantelope popover quebec arizona) [0]
+41: (                       feast excitement beef tuna bosnia surrey) [0]
+42: (          drink potato beef goias alsace kentucky bosnia surrey) [0]
+43: (       drink cantelope beef quebec goias alsace surrey kentucky) [0]
+44: (   drink snickers pistachio alsace kentucky surrey alsace goias) [0]
+45: (      drink snickers muffin kentucky surrey bosnia alsace goias) [0]
+46: (      drink muffin tomato goias alsace kentucky surrey kentucky) [0]
+47: (                    overcome anger excitement tuna neptune mars) [0]
+48: (       drink onion scallop alsace kentucky surrey bosnia surrey) [0]
+49: (    drink popover tomato kentucky surrey bosnia kentucky alsace) [0]
+50: (       drink turkey tuna alsace kentucky surrey surrey kentucky) [0]
+51: (                     feast excitement tuna beef surrey kentucky) [0]
+52: (      drink beef scallop kentucky surrey bosnia surrey kentucky) [0]
+53: ( drink muffin wonderbread alsace kentucky surrey quebec arizona) [0]
+54: (   drink muffin marzipan kentucky surrey bosnia surrey kentucky) [0]
+55: (     drink onion scallop kentucky surrey bosnia kentucky alsace) [0]
+56: (                    feast excitement beef scallop bosnia surrey) [0]
+57: (    drink papaya popover kentucky surrey bosnia surrey kentucky) [0]
+58: (     drink wonderbread potato arizona quebec goias alsace goias) [0]
+59: (   drink scallop chicken alsace kentucky surrey surrey kentucky) [0]
+60: (               feast excitement scallop chicken surrey kentucky) [0]
+61: (      drink cantelope potato goias alsace kentucky goias quebec) [0]
+62: (    drink pistachio bacon goias alsace kentucky surrey kentucky) [0]
+63: (      drink bacon mutton kentucky surrey bosnia surrey kentucky) [0]
+64: (   drink mutton snickers kentucky surrey bosnia surrey kentucky) [0]
+65: (                feast excitement chicken turkey surrey kentucky) [0]
+66: (   drink marzipan cantelope kentucky surrey bosnia alsace goias) [0]
+67: (   drink cantelope pistachio goias alsace kentucky alsace goias) [0]
+68: (                   feast lubricity turkey onion surrey kentucky) [0]
+69: (     drink tomato papaya alsace kentucky surrey surrey kentucky) [0]
+70: (  drink cantelope turkey alsace kentucky surrey surrey kentucky) [0]
+71: (       drink potato popover quebec goias alsace kentucky alsace) [0]
+72: (                   succumb anger excitement turkey neptune mars) [0]
+73: (      drink popover tuna alsace kentucky surrey surrey kentucky) [0]
+74: (       drink papaya tuna kentucky surrey bosnia kentucky alsace) [0]
+75: (  drink popover marzipan kentucky surrey bosnia surrey kentucky) [0]
+76: (                 succumb abrasion excitement turkey mars saturn) [0]
+
+time spent:       0.04 seconds parsing 
+                  1.02 seconds encoding 
+                900.84 seconds searching
+                901.90 seconds total time
+
+memory used:     56.19 MBytes for problem representation
+                  0.00 MBytes for searching
+                 56.19 MBytes total
+
+

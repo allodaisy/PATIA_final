@@ -1,0 +1,89 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p05.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (3480 actions, 284 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (               overcome depression excitement turkey earth mars) [0]
+01: (    drink chocolate shrimp goias kentucky alsace kentucky goias) [0]
+02: (                   feast intoxication tuna turkey goias arizona) [0]
+03: (drink broccoli sweetroll arizona goias kentucky alsace kentucky) [0]
+04: (        drink shrimp shrimp goias kentucky alsace goias arizona) [0]
+05: (        drink tuna broccoli goias kentucky alsace goias arizona) [0]
+06: (           overcome prostatitis excitement turkey mercury earth) [0]
+07: (   drink shrimp chocolate arizona goias kentucky kentucky goias) [0]
+08: (       drink shrimp cherry goias kentucky alsace kentucky goias) [0]
+09: (            overcome abrasion intoxication turkey mercury earth) [0]
+10: (    drink broccoli turkey arizona goias kentucky kentucky goias) [0]
+11: (             overcome boils satisfaction broccoli mercury earth) [0]
+12: (    drink turkey sweetroll goias kentucky alsace kentucky goias) [0]
+13: (       drink cherry shrimp goias kentucky alsace kentucky goias) [0]
+14: (     drink chocolate shrimp goias kentucky alsace goias arizona) [0]
+15: (            overcome grief satisfaction broccoli uranus mercury) [0]
+16: (     drink broccoli turkey goias kentucky alsace kentucky goias) [0]
+17: (        drink shrimp tuna arizona goias kentucky kentucky goias) [0]
+18: (        drink turkey turkey goias kentucky alsace goias arizona) [0]
+19: (    drink sweetroll turkey goias kentucky alsace kentucky goias) [0]
+20: (    drink turkey chocolate goias kentucky alsace kentucky goias) [0]
+21: (              feast lubricity sweetroll scallop alsace kentucky) [0]
+22: (               overcome grief-2 lubricity scallop mercury earth) [0]
+23: (              feast intoxication turkey chocolate goias arizona) [0]
+24: (        drink turkey shrimp goias kentucky alsace goias arizona) [0]
+25: (          feast satisfaction broccoli chocolate alsace kentucky) [0]
+26: (           feast intoxication chocolate broccoli kentucky goias) [0]
+27: (          overcome anxiety intoxication broccoli uranus mercury) [0]
+28: (             succumb depression excitement turkey mercury earth) [0]
+29: (              feast excitement turkey chocolate alsace kentucky) [0]
+30: (        drink tuna turkey goias kentucky alsace alsace kentucky) [0]
+31: (            feast satisfaction chocolate shrimp alsace kentucky) [0]
+32: (  drink shrimp sweetroll arizona goias kentucky alsace kentucky) [0]
+33: (           overcome loneliness lubricity scallop uranus mercury) [0]
+34: (            succumb loneliness lubricity scallop uranus mercury) [0]
+35: (    drink shrimp sweetroll goias kentucky alsace kentucky goias) [0]
+36: (  drink sweetroll sweetroll goias kentucky alsace goias arizona) [0]
+37: (                succumb grief-2 lubricity scallop mercury earth) [0]
+38: (               succumb grief satisfaction shrimp uranus mercury) [0]
+39: (           succumb anxiety intoxication broccoli uranus mercury) [0]
+40: ( drink sweetroll scallop arizona goias kentucky alsace kentucky) [0]
+41: (    drink sweetroll turkey goias kentucky alsace kentucky goias) [0]
+42: (      drink turkey scallop goias kentucky alsace kentucky goias) [0]
+43: (            feast satisfaction shrimp sweetroll alsace kentucky) [0]
+44: (               overcome grief-2 lubricity scallop mercury earth) [0]
+45: (      drink scallop turkey goias kentucky alsace kentucky goias) [0]
+46: (          overcome anxiety intoxication broccoli uranus mercury) [0]
+47: (           overcome loneliness lubricity scallop uranus mercury) [0]
+48: (              feast lubricity scallop sweetroll alsace kentucky) [0]
+49: (    drink turkey sweetroll goias kentucky alsace kentucky goias) [0]
+50: (      drink sweetroll tuna goias kentucky alsace kentucky goias) [0]
+51: (            drink tuna tuna goias kentucky alsace goias arizona) [0]
+52: (          succumb abrasion intoxication broccoli uranus mercury) [0]
+53: (      drink tuna scallop arizona goias kentucky alsace kentucky) [0]
+54: (            succumb prostatitis excitement chocolate earth mars) [0]
+55: (               feast lubricity sweetroll shrimp alsace kentucky) [0]
+56: (     drink tuna sweetroll goias kentucky alsace alsace kentucky) [0]
+57: (             succumb boils satisfaction sweetroll mercury earth) [0]
+58: (           feast satisfaction sweetroll scallop alsace kentucky) [0]
+59: (         overcome abrasion intoxication broccoli uranus mercury) [0]
+60: (           succumb anxiety intoxication broccoli uranus mercury) [0]
+61: (           overcome hangover satisfaction scallop mercury earth) [0]
+62: (         overcome sciatica intoxication broccoli uranus mercury) [0]
+63: (                succumb grief-2 lubricity shrimp uranus mercury) [0]
+64: (              succumb loneliness lubricity shrimp mercury earth) [0]
+
+time spent:       0.05 seconds parsing 
+                  0.32 seconds encoding 
+                  0.85 seconds searching
+                  1.21 seconds total time
+
+memory used:      7.47 MBytes for problem representation
+                  0.00 MBytes for searching
+                  7.47 MBytes total
+
+

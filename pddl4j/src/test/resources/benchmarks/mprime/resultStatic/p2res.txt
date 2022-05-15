@@ -1,0 +1,47 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p02.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (4268 actions, 326 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (    drink ham flounder surrey bosnia kentucky kentucky bosnia) [0]
+01: (drink flounder flounder bosnia kentucky arizona bosnia surrey) [0]
+02: (                   feast satiety onion cherry kentucky bosnia) [0]
+03: (              feast stimulation flounder cherry bosnia surrey) [0]
+04: (             overcome grief-7 entertainment ham pluto jupiter) [0]
+05: (               feast entertainment ham muffin kentucky bosnia) [0]
+06: (                  feast satiety cherry flounder bosnia surrey) [0]
+07: (drink flounder muffin bosnia kentucky arizona kentucky bosnia) [0]
+08: (       drink beef cherry surrey bosnia kentucky bosnia surrey) [0]
+09: (      overcome depression-1 entertainment muffin vulcan pluto) [0]
+10: (     drink beef onion bosnia kentucky arizona kentucky bosnia) [0]
+11: (                  feast stimulation cherry beef bosnia surrey) [0]
+12: (              feast entertainment muffin tuna kentucky bosnia) [0]
+13: (  drink beef flounder kentucky arizona alsace kentucky bosnia) [0]
+14: (             overcome anxiety satiety flounder mercury vulcan) [0]
+15: (               feast entertainment tuna beef arizona kentucky) [0]
+16: (   drink onion muffin bosnia kentucky arizona kentucky bosnia) [0]
+17: (                  feast curiosity cherry beef kentucky bosnia) [0]
+18: (   drink cherry tuna kentucky arizona alsace arizona kentucky) [0]
+19: (         succumb depression-1 entertainment beef vulcan pluto) [0]
+20: (                   overcome anger curiosity beef vulcan pluto) [0]
+21: (             succumb grief-7 entertainment beef pluto jupiter) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.35 seconds encoding 
+                 24.24 seconds searching
+                 24.61 seconds total time
+
+memory used:      9.16 MBytes for problem representation
+                  0.00 MBytes for searching
+                  9.16 MBytes total
+
+

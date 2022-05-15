@@ -1,0 +1,50 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p17.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (3114 actions, 398 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (             drive truck3 depot0 depot1) [0]
+01: ( lift hoist3 crate8 crate6 distributor1) [0]
+02: ( load hoist3 crate8 truck1 distributor1) [0]
+03: ( lift hoist3 crate7 crate5 distributor1) [0]
+04: ( load hoist3 crate7 truck1 distributor1) [0]
+05: (       drive truck1 distributor1 depot0) [0]
+06: (     unload hoist5 crate8 truck1 depot0) [0]
+07: (lift hoist3 crate1 pallet5 distributor1) [0]
+08: (lift hoist7 crate6 pallet7 distributor1) [0]
+09: (drop hoist3 crate1 pallet7 distributor1) [0]
+10: (     unload hoist6 crate7 truck1 depot0) [0]
+11: (      lift hoist1 crate4 pallet1 depot1) [0]
+12: (       load hoist1 crate4 truck2 depot1) [0]
+13: (             drive truck2 depot1 depot0) [0]
+14: (     unload hoist0 crate4 truck2 depot0) [0]
+15: (      drop hoist0 crate4 pallet0 depot0) [0]
+16: (      lift hoist4 crate3 pallet6 depot0) [0]
+17: (      drop hoist5 crate8 pallet6 depot0) [0]
+18: (       drop hoist4 crate3 crate8 depot0) [0]
+19: (       drop hoist6 crate7 crate3 depot0) [0]
+20: (       drive truck0 depot1 distributor1) [0]
+21: ( load hoist7 crate6 truck0 distributor1) [0]
+22: (       drive truck0 distributor1 depot1) [0]
+23: (     unload hoist1 crate6 truck0 depot1) [0]
+24: (      drop hoist1 crate6 pallet1 depot1) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.36 seconds encoding 
+                  1.02 seconds searching
+                  1.40 seconds total time
+
+memory used:      7.66 MBytes for problem representation
+                  0.67 MBytes for searching
+                  8.34 MBytes total
+
+

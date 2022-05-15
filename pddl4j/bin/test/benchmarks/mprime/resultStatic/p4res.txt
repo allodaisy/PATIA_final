@@ -1,0 +1,54 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p04.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (1452 actions, 172 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (         drink ham bacon bosnia quebec surrey quebec bosnia) [0]
+01: (     drink scallop wurst oregon bosnia quebec surrey quebec) [0]
+02: (               feast aesthetics shrimp cherry quebec bosnia) [0]
+03: (            feast aesthetics cherry arugula oregon kentucky) [0]
+04: (         drink bacon ham bosnia quebec surrey quebec bosnia) [0]
+05: (drink arugula cherry kentucky oregon bosnia oregon kentucky) [0]
+06: (      drink ham scallion bosnia quebec surrey quebec bosnia) [0]
+07: (     drink arugula bacon oregon bosnia quebec quebec bosnia) [0]
+08: (     drink scallop bacon bosnia quebec surrey bosnia oregon) [0]
+09: (               feast aesthetics arugula bacon quebec bosnia) [0]
+10: (                 feast aesthetics bacon wurst bosnia oregon) [0]
+11: (  drink cherry scallop kentucky oregon bosnia quebec bosnia) [0]
+12: (      drink bacon shrimp bosnia quebec surrey quebec bosnia) [0]
+13: (            feast aesthetics wurst grapefruit surrey quebec) [0]
+14: (        drink cherry ham oregon bosnia quebec quebec bosnia) [0]
+15: (   drink scallop arugula bosnia quebec surrey quebec bosnia) [0]
+16: (        overcome sciatica aesthetics grapefruit mars vulcan) [0]
+17: (  drink scallion scallop bosnia quebec surrey quebec bosnia) [0]
+18: ( drink shrimp grapefruit bosnia quebec surrey surrey quebec) [0]
+19: (      drink cherry wurst bosnia quebec surrey surrey quebec) [0]
+20: (         drink ham wurst bosnia quebec surrey quebec bosnia) [0]
+21: (   drink muffin cherry kentucky oregon bosnia quebec bosnia) [0]
+22: (    drink muffin scallop oregon bosnia quebec bosnia oregon) [0]
+23: (      drink wurst cherry bosnia quebec surrey bosnia oregon) [0]
+24: (    drink arugula muffin bosnia quebec surrey bosnia oregon) [0]
+25: ( drink muffin grapefruit oregon bosnia quebec quebec bosnia) [0]
+26: (  drink muffin scallop bosnia quebec surrey oregon kentucky) [0]
+27: (            feast aesthetics grapefruit wurst quebec bosnia) [0]
+28: (              succumb sciatica aesthetics wurst mars vulcan) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.18 seconds encoding 
+                  6.57 seconds searching
+                  6.76 seconds total time
+
+memory used:      3.09 MBytes for problem representation
+                  0.00 MBytes for searching
+                  3.09 MBytes total
+
+

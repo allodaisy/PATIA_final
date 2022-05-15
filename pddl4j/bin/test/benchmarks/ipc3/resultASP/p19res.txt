@@ -1,0 +1,25 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p19.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (2512 actions, 380 fluents)
+
+* Starting A* search 
+* A* search failed
+
+no plan found
+
+
+time spent:       0.02 seconds parsing 
+                  0.42 seconds encoding 
+                  0.00 seconds searching
+                  0.44 seconds total time
+
+memory used:      6.06 MBytes for problem representation
+                  0.00 MBytes for searching
+                  6.06 MBytes total
+
+

@@ -1,0 +1,50 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p01.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (1266 actions, 95 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (                          overcome abrasion rest pork uranus venus) [0]
+01: (drink flounder pear alsace pennsylvania surrey surrey pennsylvania) [0]
+02: (       drink okra lamb guanabara quebec alsace pennsylvania alsace) [0]
+03: (drink pear flounder pennsylvania surrey bosnia pennsylvania alsace) [0]
+04: (      drink flounder lamb alsace pennsylvania surrey alsace quebec) [0]
+05: (           drink pear okra surrey bosnia kentucky quebec guanabara) [0]
+06: (   drink okra flounder guanabara quebec alsace pennsylvania alsace) [0]
+07: (      drink okra flounder quebec alsace pennsylvania alsace quebec) [0]
+08: (      drink flounder pear quebec alsace pennsylvania bosnia surrey) [0]
+09: (    drink okra pear alsace pennsylvania surrey surrey pennsylvania) [0]
+10: (          drink okra rice pennsylvania surrey bosnia bosnia surrey) [0]
+11: (        drink okra rice surrey bosnia kentucky surrey pennsylvania) [0]
+12: (                                feast rest pork okra alsace quebec) [0]
+13: (                              feast rest okra pear kentucky bosnia) [0]
+14: (       drink lamb lamb quebec alsace pennsylvania quebec guanabara) [0]
+15: (    drink flounder okra alsace pennsylvania surrey kentucky bosnia) [0]
+16: (          drink pear lamb pennsylvania surrey bosnia alsace quebec) [0]
+17: (             drink lamb okra guanabara quebec alsace bosnia surrey) [0]
+18: (    drink pork okra alsace pennsylvania surrey surrey pennsylvania) [0]
+19: (                                feast rest pear rice bosnia surrey) [0]
+20: (    drink pork pork pennsylvania surrey bosnia pennsylvania alsace) [0]
+21: (           drink pork lamb surrey bosnia kentucky quebec guanabara) [0]
+22: (drink flounder rice pennsylvania surrey bosnia pennsylvania alsace) [0]
+23: (          drink okra pear pennsylvania surrey bosnia bosnia surrey) [0]
+24: (          drink flounder pork surrey bosnia kentucky bosnia surrey) [0]
+25: (                           succumb abrasion rest rice uranus venus) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.25 seconds encoding 
+                  0.17 seconds searching
+                  0.46 seconds total time
+
+memory used:      2.65 MBytes for problem representation
+                  0.00 MBytes for searching
+                  2.65 MBytes total
+
+

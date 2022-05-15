@@ -1,0 +1,111 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p09.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (164 actions, 84 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( pick ball4 rooma right) [0]
+01: ( pick ball13 rooma left) [0]
+02: (       move rooma roomb) [0]
+03: ( drop ball13 roomb left) [0]
+04: ( drop ball4 roomb right) [0]
+05: (       move roomb rooma) [0]
+06: (pick ball19 rooma right) [0]
+07: ( pick ball12 rooma left) [0]
+08: (       move rooma roomb) [0]
+09: ( drop ball12 roomb left) [0]
+10: ( pick ball12 roomb left) [0]
+11: (drop ball19 roomb right) [0]
+12: (       move roomb roomb) [0]
+13: ( drop ball12 roomb left) [0]
+14: (       move roomb rooma) [0]
+15: ( pick ball15 rooma left) [0]
+16: (pick ball18 rooma right) [0]
+17: (       move rooma rooma) [0]
+18: (       move rooma roomb) [0]
+19: ( drop ball15 roomb left) [0]
+20: (drop ball18 roomb right) [0]
+21: (       move roomb rooma) [0]
+22: (  pick ball8 rooma left) [0]
+23: (  drop ball8 rooma left) [0]
+24: ( pick ball3 rooma right) [0]
+25: (  pick ball2 rooma left) [0]
+26: (       move rooma roomb) [0]
+27: (       move roomb roomb) [0]
+28: (  drop ball2 roomb left) [0]
+29: ( drop ball3 roomb right) [0]
+30: (       move roomb rooma) [0]
+31: ( pick ball16 rooma left) [0]
+32: (pick ball17 rooma right) [0]
+33: (       move rooma roomb) [0]
+34: (drop ball17 roomb right) [0]
+35: ( drop ball16 roomb left) [0]
+36: (       move roomb rooma) [0]
+37: (  pick ball6 rooma left) [0]
+38: (pick ball14 rooma right) [0]
+39: (  drop ball6 rooma left) [0]
+40: (drop ball14 rooma right) [0]
+41: (pick ball20 rooma right) [0]
+42: (  pick ball6 rooma left) [0]
+43: (       move rooma rooma) [0]
+44: (       move rooma roomb) [0]
+45: (  drop ball6 roomb left) [0]
+46: (       move roomb rooma) [0]
+47: ( pick ball14 rooma left) [0]
+48: (       move rooma roomb) [0]
+49: (drop ball20 roomb right) [0]
+50: (pick ball13 roomb right) [0]
+51: (       move roomb roomb) [0]
+52: ( drop ball14 roomb left) [0]
+53: (drop ball13 roomb right) [0]
+54: (       move roomb roomb) [0]
+55: (       move roomb rooma) [0]
+56: ( pick ball5 rooma right) [0]
+57: (  pick ball9 rooma left) [0]
+58: (       move rooma roomb) [0]
+59: ( drop ball5 roomb right) [0]
+60: ( pick ball5 roomb right) [0]
+61: (       move roomb roomb) [0]
+62: ( drop ball5 roomb right) [0]
+63: (  drop ball9 roomb left) [0]
+64: (       move roomb rooma) [0]
+65: ( pick ball11 rooma left) [0]
+66: ( pick ball8 rooma right) [0]
+67: (       move rooma roomb) [0]
+68: (       move roomb roomb) [0]
+69: ( drop ball8 roomb right) [0]
+70: ( drop ball11 roomb left) [0]
+71: ( pick ball3 roomb right) [0]
+72: ( drop ball3 roomb right) [0]
+73: (       move roomb rooma) [0]
+74: (  pick ball7 rooma left) [0]
+75: (  drop ball7 rooma left) [0]
+76: ( pick ball1 rooma right) [0]
+77: ( pick ball10 rooma left) [0]
+78: (       move rooma roomb) [0]
+79: (       move roomb roomb) [0]
+80: ( drop ball10 roomb left) [0]
+81: (       move roomb rooma) [0]
+82: (  pick ball7 rooma left) [0]
+83: (       move rooma roomb) [0]
+84: ( drop ball1 roomb right) [0]
+85: (  drop ball7 roomb left) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.04 seconds encoding 
+                  4.03 seconds searching
+                  4.10 seconds total time
+
+memory used:      0.38 MBytes for problem representation
+                  0.00 MBytes for searching
+                  0.38 MBytes total
+
+

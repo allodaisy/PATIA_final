@@ -1,0 +1,65 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p05.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (3480 actions, 284 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (           overcome grief satisfaction broccoli mercury earth) [0]
+01: (      drink tuna shrimp arizona goias kentucky kentucky goias) [0]
+02: (   drink shrimp chocolate goias kentucky alsace goias arizona) [0]
+03: (  drink broccoli cherry arizona goias kentucky kentucky goias) [0]
+04: (                 feast excitement turkey tuna alsace kentucky) [0]
+05: (         feast satisfaction broccoli chocolate kentucky goias) [0]
+06: (    drink cherry turkey goias kentucky alsace alsace kentucky) [0]
+07: (                  feast excitement tuna turkey kentucky goias) [0]
+08: (            feast satisfaction chocolate shrimp goias arizona) [0]
+09: (             overcome depression excitement turkey earth mars) [0]
+10: (              succumb grief satisfaction shrimp mercury earth) [0]
+11: (         overcome prostatitis excitement turkey mercury earth) [0]
+12: (  drink chocolate shrimp goias kentucky alsace kentucky goias) [0]
+13: (  drink shrimp chocolate goias kentucky alsace kentucky goias) [0]
+14: (          succumb prostatitis excitement turkey mercury earth) [0]
+15: (             overcome grief satisfaction shrimp mercury earth) [0]
+16: (drink chocolate broccoli goias kentucky alsace kentucky goias) [0]
+17: (     drink broccoli tuna goias kentucky alsace kentucky goias) [0]
+18: (            feast excitement turkey chocolate alsace kentucky) [0]
+19: (              succumb grief satisfaction shrimp mercury earth) [0]
+20: (        overcome laceration satisfaction shrimp mercury earth) [0]
+21: (          drink tuna tuna goias kentucky alsace goias arizona) [0]
+22: (  drink tuna sweetroll arizona goias kentucky alsace kentucky) [0]
+23: (     drink tuna scallop goias kentucky alsace alsace kentucky) [0]
+24: (             feast intoxication tuna broccoli alsace kentucky) [0]
+25: (            feast lubricity sweetroll scallop alsace kentucky) [0]
+26: (          overcome loneliness lubricity scallop mercury earth) [0]
+27: (           overcome hangover lubricity scallop uranus mercury) [0]
+28: (          feast excitement chocolate broccoli alsace kentucky) [0]
+29: (           overcome anxiety excitement broccoli mercury earth) [0]
+30: (               feast lubricity scallop cherry alsace kentucky) [0]
+31: (          feast excitement broccoli chocolate alsace kentucky) [0]
+32: (        succumb depression excitement chocolate mercury earth) [0]
+33: (             succumb hangover lubricity cherry uranus mercury) [0]
+34: (          feast satisfaction shrimp chocolate alsace kentucky) [0]
+35: (                feast lubricity cherry shrimp alsace kentucky) [0]
+36: (      succumb laceration satisfaction chocolate mercury earth) [0]
+37: (        overcome sciatica intoxication broccoli mercury earth) [0]
+38: (       overcome laceration excitement chocolate mercury earth) [0]
+39: (            succumb loneliness lubricity shrimp mercury earth) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.34 seconds encoding 
+                 21.43 seconds searching
+                 21.81 seconds total time
+
+memory used:      7.47 MBytes for problem representation
+                  0.00 MBytes for searching
+                  7.47 MBytes total
+
+

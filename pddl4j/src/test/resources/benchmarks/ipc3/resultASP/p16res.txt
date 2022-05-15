@@ -1,0 +1,51 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p16.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (1516 actions, 234 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (       lift hoist5 crate0 pallet4 depot1) [0]
+01: (        lift hoist1 crate3 crate1 depot1) [0]
+02: (        load hoist1 crate3 truck0 depot1) [0]
+03: (        load hoist5 crate0 truck1 depot1) [0]
+04: (       lift hoist5 crate1 pallet1 depot1) [0]
+05: (        drive truck1 depot1 distributor1) [0]
+06: (unload hoist3 crate0 truck1 distributor1) [0]
+07: ( drop hoist3 crate0 pallet3 distributor1) [0]
+08: (        lift hoist0 crate5 crate2 depot0) [0]
+09: (        load hoist0 crate5 truck2 depot0) [0]
+10: (        drive truck2 depot0 distributor0) [0]
+11: (       lift hoist0 crate2 pallet0 depot0) [0]
+12: (              drive truck0 depot1 depot0) [0]
+13: (        load hoist0 crate2 truck0 depot0) [0]
+14: (      unload hoist0 crate3 truck0 depot0) [0]
+15: (       drop hoist0 crate3 pallet0 depot0) [0]
+16: (              drive truck0 depot0 depot1) [0]
+17: ( lift hoist2 crate4 pallet2 distributor0) [0]
+18: (  load hoist2 crate4 truck2 distributor0) [0]
+19: (      unload hoist1 crate2 truck0 depot1) [0]
+20: (       drop hoist1 crate2 pallet1 depot1) [0]
+21: (unload hoist2 crate5 truck2 distributor0) [0]
+22: (        drive truck2 distributor0 depot0) [0]
+23: ( drop hoist2 crate5 pallet2 distributor0) [0]
+24: (      unload hoist0 crate4 truck2 depot0) [0]
+25: (        drop hoist0 crate4 crate3 depot0) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.19 seconds encoding 
+                  2.85 seconds searching
+                  3.07 seconds total time
+
+memory used:      3.65 MBytes for problem representation
+                  2.97 MBytes for searching
+                  6.62 MBytes total
+
+

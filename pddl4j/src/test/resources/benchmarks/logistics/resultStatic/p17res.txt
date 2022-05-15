@@ -1,0 +1,126 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p17.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (944 actions, 200 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+000: (     load-truck obj23 tru2 pos2) [0]
+001: (     load-truck obj22 tru2 pos2) [0]
+002: (drive-truck tru3 pos3 pos3 cit3) [0]
+003: (    fly-airplane apn1 apt1 apt4) [0]
+004: (     load-truck obj41 tru4 pos4) [0]
+005: (     load-truck obj12 tru1 pos1) [0]
+006: (     load-truck obj21 tru2 pos2) [0]
+007: (drive-truck tru2 pos2 apt2 cit2) [0]
+008: (   unload-truck obj21 tru2 apt2) [0]
+009: (drive-truck tru2 apt2 apt2 cit2) [0]
+010: (   unload-truck obj22 tru2 apt2) [0]
+011: (   unload-truck obj41 tru4 pos4) [0]
+012: (     load-truck obj33 tru3 pos3) [0]
+013: (drive-truck tru3 pos3 pos3 cit3) [0]
+014: (     load-truck obj13 tru1 pos1) [0]
+015: (   unload-truck obj23 tru2 apt2) [0]
+016: (     load-truck obj41 tru4 pos4) [0]
+017: (     load-truck obj11 tru1 pos1) [0]
+018: (drive-truck tru1 pos1 apt1 cit1) [0]
+019: (   unload-truck obj12 tru1 apt1) [0]
+020: (drive-truck tru2 apt2 pos2 cit2) [0]
+021: (    fly-airplane apn1 apt4 apt2) [0]
+022: (  load-airplane obj21 apn1 apt2) [0]
+023: (  load-airplane obj23 apn1 apt2) [0]
+024: (drive-truck tru2 pos2 pos2 cit2) [0]
+025: (    fly-airplane apn1 apt2 apt4) [0]
+026: (    fly-airplane apn1 apt4 apt3) [0]
+027: (   unload-truck obj13 tru1 apt1) [0]
+028: (    fly-airplane apn1 apt3 apt4) [0]
+029: (     load-truck obj32 tru3 pos3) [0]
+030: (unload-airplane obj23 apn1 apt4) [0]
+031: (drive-truck tru4 pos4 apt4 cit4) [0]
+032: (drive-truck tru3 pos3 apt3 cit3) [0]
+033: (   unload-truck obj41 tru4 apt4) [0]
+034: (drive-truck tru1 apt1 pos1 cit1) [0]
+035: (drive-truck tru4 apt4 apt4 cit4) [0]
+036: (  load-airplane obj41 apn1 apt4) [0]
+037: (   unload-truck obj32 tru3 apt3) [0]
+038: (drive-truck tru2 pos2 pos2 cit2) [0]
+039: (drive-truck tru4 apt4 apt4 cit4) [0]
+040: (drive-truck tru1 pos1 pos1 cit1) [0]
+041: (drive-truck tru2 pos2 apt2 cit2) [0]
+042: (unload-airplane obj21 apn1 apt4) [0]
+043: (     load-truck obj23 tru4 apt4) [0]
+044: (    fly-airplane apn1 apt4 apt3) [0]
+045: (    fly-airplane apn1 apt3 apt3) [0]
+046: (  load-airplane obj32 apn1 apt3) [0]
+047: (unload-airplane obj41 apn1 apt3) [0]
+048: (drive-truck tru3 apt3 pos3 cit3) [0]
+049: (drive-truck tru4 apt4 pos4 cit4) [0]
+050: (drive-truck tru3 pos3 pos3 cit3) [0]
+051: (drive-truck tru4 pos4 apt4 cit4) [0]
+052: (drive-truck tru3 pos3 apt3 cit3) [0]
+053: (     load-truck obj21 tru4 apt4) [0]
+054: (drive-truck tru4 apt4 pos4 cit4) [0]
+055: (    fly-airplane apn1 apt3 apt3) [0]
+056: (   unload-truck obj23 tru4 pos4) [0]
+057: (   unload-truck obj33 tru3 apt3) [0]
+058: (     load-truck obj23 tru4 pos4) [0]
+059: (drive-truck tru2 apt2 pos2 cit2) [0]
+060: (drive-truck tru4 pos4 apt4 cit4) [0]
+061: (    fly-airplane apn1 apt3 apt2) [0]
+062: (drive-truck tru4 apt4 pos4 cit4) [0]
+063: (   unload-truck obj23 tru4 pos4) [0]
+064: (drive-truck tru2 pos2 apt2 cit2) [0]
+065: (drive-truck tru3 apt3 pos3 cit3) [0]
+066: (   unload-truck obj21 tru4 pos4) [0]
+067: (     load-truck obj22 tru2 apt2) [0]
+068: (    fly-airplane apn1 apt2 apt1) [0]
+069: (   unload-truck obj22 tru2 apt2) [0]
+070: (unload-airplane obj32 apn1 apt1) [0]
+071: (drive-truck tru2 apt2 apt2 cit2) [0]
+072: (     load-truck obj43 tru4 pos4) [0]
+073: (    fly-airplane apn1 apt1 apt1) [0]
+074: (     load-truck obj22 tru2 apt2) [0]
+075: (drive-truck tru1 pos1 apt1 cit1) [0]
+076: (   unload-truck obj11 tru1 apt1) [0]
+077: (   unload-truck obj22 tru2 apt2) [0]
+078: (  load-airplane obj13 apn1 apt1) [0]
+079: (  load-airplane obj11 apn1 apt1) [0]
+080: (unload-airplane obj13 apn1 apt1) [0]
+081: (    fly-airplane apn1 apt1 apt3) [0]
+082: (drive-truck tru4 pos4 pos4 cit4) [0]
+083: (drive-truck tru3 pos3 pos3 cit3) [0]
+084: (     load-truck obj32 tru1 apt1) [0]
+085: (drive-truck tru1 apt1 pos1 cit1) [0]
+086: (   unload-truck obj32 tru1 pos1) [0]
+087: (drive-truck tru1 pos1 apt1 cit1) [0]
+088: (   unload-truck obj43 tru4 pos4) [0]
+089: (drive-truck tru3 pos3 apt3 cit3) [0]
+090: (unload-airplane obj11 apn1 apt3) [0]
+091: (     load-truck obj11 tru3 apt3) [0]
+092: (    fly-airplane apn1 apt3 apt1) [0]
+093: (drive-truck tru4 pos4 pos4 cit4) [0]
+094: (    fly-airplane apn1 apt1 apt2) [0]
+095: (    fly-airplane apn1 apt2 apt1) [0]
+096: (drive-truck tru3 apt3 pos3 cit3) [0]
+097: (drive-truck tru1 apt1 apt1 cit1) [0]
+098: (drive-truck tru3 pos3 pos3 cit3) [0]
+099: (     load-truck obj43 tru4 pos4) [0]
+100: (   unload-truck obj11 tru3 pos3) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.06 seconds encoding 
+                 13.70 seconds searching
+                 13.78 seconds total time
+
+memory used:      1.66 MBytes for problem representation
+                  0.00 MBytes for searching
+                  1.66 MBytes total
+
+

@@ -1,0 +1,82 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p11.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (1636 actions, 158 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (         drink tomato cherry bosnia quebec alsace surrey manitoba) [0]
+01: (        drink pear pistachio bosnia quebec alsace surrey manitoba) [0]
+02: (      drink chicken tomato kentucky manitoba surrey quebec bosnia) [0]
+03: (                 overcome laceration lubricity pear uranus saturn) [0]
+04: (                     feast lubricity pear sweetroll alsace quebec) [0]
+05: (     drink cherry shrimp manitoba surrey bosnia manitoba kentucky) [0]
+06: (    drink tomato pistachio bosnia quebec alsace manitoba kentucky) [0]
+07: (        drink chicken tomato manitoba surrey bosnia quebec bosnia) [0]
+08: (      drink pistachio pear kentucky manitoba surrey alsace quebec) [0]
+09: (        drink pistachio pear manitoba surrey bosnia quebec bosnia) [0]
+10: (      drink tomato pistachio bosnia quebec alsace surrey manitoba) [0]
+11: (       drink pistachio bacon manitoba surrey bosnia alsace quebec) [0]
+12: (               drink pear pear bosnia quebec alsace bosnia surrey) [0]
+13: (       drink chicken sweetroll surrey bosnia quebec quebec bosnia) [0]
+14: (           drink pear cherry surrey bosnia quebec surrey manitoba) [0]
+15: (          drink sweetroll pear bosnia quebec alsace bosnia surrey) [0]
+16: (           overcome loneliness lubricity sweetroll neptune uranus) [0]
+17: (      drink cherry sweetroll manitoba surrey bosnia quebec bosnia) [0]
+18: (      drink pistachio cherry surrey bosnia quebec surrey manitoba) [0]
+19: (     drink sweetroll pistachio bosnia quebec alsace bosnia surrey) [0]
+20: (          drink chicken pear bosnia quebec alsace surrey manitoba) [0]
+21: (       drink cherry pear manitoba surrey bosnia manitoba kentucky) [0]
+22: (       drink pear cherry kentucky manitoba surrey surrey manitoba) [0]
+23: (    drink cherry pistachio manitoba surrey bosnia surrey manitoba) [0]
+24: (                   feast lubricity sweetroll tomato alsace quebec) [0]
+25: (           drink cherry tomato surrey bosnia quebec quebec bosnia) [0]
+26: (        drink pear sweetroll manitoba surrey bosnia alsace quebec) [0]
+27: (drink shrimp pistachio kentucky manitoba surrey manitoba kentucky) [0]
+28: (                      feast lubricity tomato shrimp quebec bosnia) [0]
+29: (            drink pear chicken surrey bosnia quebec quebec bosnia) [0]
+30: (           drink chicken bacon bosnia quebec alsace quebec bosnia) [0]
+31: ( drink pistachio sweetroll kentucky manitoba surrey quebec bosnia) [0]
+32: (          drink sweetroll pear bosnia quebec alsace bosnia surrey) [0]
+33: (           drink cherry pear bosnia quebec alsace surrey manitoba) [0]
+34: (           drink bacon chicken bosnia quebec alsace quebec bosnia) [0]
+35: (        drink shrimp chicken manitoba surrey bosnia bosnia surrey) [0]
+36: (          drink chicken tomato surrey bosnia quebec quebec bosnia) [0]
+37: (             drink pear pear manitoba surrey bosnia quebec bosnia) [0]
+38: (          drink shrimp chicken surrey bosnia quebec bosnia surrey) [0]
+39: (        drink tomato chicken bosnia quebec alsace surrey manitoba) [0]
+40: (             drink pear shrimp surrey bosnia quebec bosnia surrey) [0]
+41: (      drink pistachio cherry manitoba surrey bosnia quebec bosnia) [0]
+42: (        drink chicken cherry manitoba surrey bosnia bosnia surrey) [0]
+43: (             drink pear tomato bosnia quebec alsace quebec bosnia) [0]
+44: (       drink chicken chicken surrey bosnia quebec surrey manitoba) [0]
+45: (               succumb loneliness lubricity shrimp neptune uranus) [0]
+46: (           drink chicken bacon bosnia quebec alsace quebec bosnia) [0]
+47: (          drink bacon shrimp bosnia quebec alsace surrey manitoba) [0]
+48: (   drink chicken chicken manitoba surrey bosnia manitoba kentucky) [0]
+49: (       drink shrimp cherry manitoba surrey bosnia surrey manitoba) [0]
+50: (            drink tomato bacon bosnia quebec alsace quebec bosnia) [0]
+51: (            drink bacon tomato bosnia quebec alsace quebec bosnia) [0]
+52: (     drink chicken pistachio surrey bosnia quebec surrey manitoba) [0]
+53: (          drink chicken tomato bosnia quebec alsace bosnia surrey) [0]
+54: (   drink chicken sweetroll kentucky manitoba surrey quebec bosnia) [0]
+55: (     drink pistachio chicken manitoba surrey bosnia quebec bosnia) [0]
+56: (   drink sweetroll pistachio bosnia quebec alsace surrey manitoba) [0]
+57: (                succumb laceration lubricity shrimp uranus saturn) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.24 seconds encoding 
+                  1.25 seconds searching
+                  1.53 seconds total time
+
+memory used:      3.45 MBytes for problem representation
+                  0.00 MBytes for searching
+                  3.45 MBytes total
+
+

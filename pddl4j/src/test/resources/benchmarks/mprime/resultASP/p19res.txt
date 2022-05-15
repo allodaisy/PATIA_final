@@ -1,0 +1,32 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p19.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (16100 actions, 610 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+0: (feast entertainment lobster haroset bavaria manitoba) [0]
+1: (            feast stimulation lamb beef goias bosnia) [0]
+2: (     overcome abrasion stimulation beef saturn earth) [0]
+3: (     feast stimulation beef lamb pennsylvania oregon) [0]
+4: (         feast stimulation lamb haroset oregon goias) [0]
+5: (  feast stimulation haroset lobster bavaria manitoba) [0]
+6: (   succumb abrasion stimulation lobster saturn earth) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.62 seconds encoding 
+                 65.49 seconds searching
+                 66.14 seconds total time
+
+memory used:     35.23 MBytes for problem representation
+                 15.02 MBytes for searching
+                 50.25 MBytes total
+
+

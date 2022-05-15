@@ -1,0 +1,47 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p09.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (2996 actions, 243 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (              feast intoxication haroset guava bavaria arizona) [0]
+01: (         overcome sciatica entertainment flounder saturn venus) [0]
+02: (             overcome jealousy intoxication guava earth uranus) [0]
+03: (              succumb jealousy intoxication guava earth uranus) [0]
+04: (        feast entertainment flounder hamburger bavaria arizona) [0]
+05: (      drink apple wurst arizona bavaria bosnia bavaria arizona) [0]
+06: (             overcome jealousy intoxication guava earth uranus) [0]
+07: (         succumb sciatica entertainment hamburger saturn venus) [0]
+08: (                  overcome grief excitement guava earth uranus) [0]
+09: (drink guava flounder kentucky manitoba arizona bavaria arizona) [0]
+10: (               feast intoxication guava apple arizona manitoba) [0]
+11: (  drink flounder wurst arizona bavaria bosnia arizona manitoba) [0]
+12: (                feast intoxication apple hotdog bosnia bavaria) [0]
+13: (     drink wurst apple manitoba arizona bavaria bosnia bavaria) [0]
+14: (     drink wurst guava arizona bavaria bosnia arizona manitoba) [0]
+15: (    drink guava wurst manitoba arizona bavaria bavaria arizona) [0]
+16: (     drink wurst hotdog arizona bavaria bosnia bavaria arizona) [0]
+17: (   drink hotdog haroset arizona bavaria bosnia bavaria arizona) [0]
+18: (     drink guava hotdog arizona bavaria bosnia bavaria arizona) [0]
+19: (               feast intoxication hotdog wurst bavaria arizona) [0]
+20: ( drink haroset haroset arizona bavaria bosnia arizona manitoba) [0]
+21: (              succumb jealousy intoxication wurst earth uranus) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.24 seconds encoding 
+                 13.49 seconds searching
+                 13.75 seconds total time
+
+memory used:      6.41 MBytes for problem representation
+                  0.00 MBytes for searching
+                  6.41 MBytes total
+
+

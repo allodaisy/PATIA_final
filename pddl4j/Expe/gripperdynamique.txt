@@ -1,0 +1,80 @@
+Test 1 :
+Final value: 29 
+                  0.09 seconds total time
+                  0.10 MBytes total
+Test 2 :
+Final value: 46 
+                  0.08 seconds total time
+                  0.14 MBytes total
+Test 3 :
+Final value: 59 
+                  0.14 seconds total time
+                  0.17 MBytes total
+Test 4 :
+Final value: 97 
+                  0.15 seconds total time
+                  0.21 MBytes total
+Test 5 :
+Final value: 117 
+                  0.21 seconds total time
+                  0.24 MBytes total
+Test 6 :
+Final value: 204 
+                  0.33 seconds total time
+                  0.28 MBytes total
+Test 7 :
+Final value: 214 
+                  0.26 seconds total time
+                  0.31 MBytes total
+Test 8 :
+Final value: 231 
+                  0.28 seconds total time
+                  0.35 MBytes total
+Test 9 :
+Final value: 283 
+                  0.44 seconds total time
+                  0.38 MBytes total
+Test 10 :
+Final value: 294 
+                  0.52 seconds total time
+                  0.42 MBytes total
+Test 11 :
+Final value: 337 
+                  0.46 seconds total time
+                  0.45 MBytes total
+Test 12 :
+Final value: 425 
+                  0.40 seconds total time
+                  0.49 MBytes total
+Test 13 :
+Final value: 467 
+                  0.72 seconds total time
+                  0.53 MBytes total
+Test 14 :
+Final value: 441 
+                  0.72 seconds total time
+                  0.56 MBytes total
+Test 15 :
+Final value: 554 
+                  1.09 seconds total time
+                  0.60 MBytes total
+Test 16 :
+Final value: 618 
+                  1.22 seconds total time
+                  0.63 MBytes total
+Test 17 :
+Final value: 623 
+                  0.88 seconds total time
+                  0.67 MBytes total
+Test 18 :
+Final value: 597 
+                  1.20 seconds total time
+                  0.71 MBytes total
+Test 19 :
+Final value: 790 
+                  1.46 seconds total time
+                  0.74 MBytes total
+Test 20 :
+Final value: 829 
+                  1.25 seconds total time
+                  0.78 MBytes total

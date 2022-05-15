@@ -1,0 +1,86 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p18.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (5824 actions, 648 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (               drive truck2 depot0 depot1) [0]
+01: (         drive truck1 distributor0 depot1) [0]
+02: (        lift hoist1 crate5 pallet7 depot1) [0]
+03: (        lift hoist5 crate13 crate7 depot0) [0]
+04: (         load hoist1 crate5 truck1 depot1) [0]
+05: ( lift hoist4 crate14 crate12 distributor0) [0]
+06: (   lift hoist6 crate8 crate6 distributor0) [0]
+07: (  lift hoist3 crate10 crate9 distributor1) [0]
+08: (  lift hoist7 crate9 pallet3 distributor1) [0]
+09: (         drive truck0 depot1 distributor1) [0]
+10: (  load hoist3 crate10 truck0 distributor1) [0]
+11: (   load hoist7 crate9 truck0 distributor1) [0]
+12: (  lift hoist7 crate3 pallet6 distributor1) [0]
+13: (   drive truck0 distributor1 distributor0) [0]
+14: (  load hoist4 crate14 truck0 distributor0) [0]
+15: (  lift hoist4 crate6 pallet5 distributor0) [0]
+16: (   load hoist4 crate6 truck0 distributor0) [0]
+17: (   load hoist6 crate8 truck0 distributor0) [0]
+18: (         drive truck1 depot1 distributor0) [0]
+19: ( unload hoist4 crate5 truck1 distributor0) [0]
+20: (  lift hoist2 crate12 crate2 distributor0) [0]
+21: (  lift hoist6 crate2 pallet2 distributor0) [0]
+22: (  drop hoist4 crate5 pallet2 distributor0) [0]
+23: (  drop hoist2 crate12 crate5 distributor0) [0]
+24: (  drop hoist6 crate2 crate12 distributor0) [0]
+25: (         drive truck0 distributor0 depot0) [0]
+26: (        load hoist5 crate13 truck0 depot0) [0]
+27: (         lift hoist5 crate7 crate4 depot0) [0]
+28: (         lift hoist0 crate4 crate0 depot0) [0]
+29: (        drop hoist0 crate4 pallet4 depot0) [0]
+30: (        lift hoist1 crate11 crate1 depot1) [0]
+31: (        load hoist1 crate11 truck2 depot1) [0]
+32: (         drive truck2 depot1 distributor0) [0]
+33: (unload hoist2 crate11 truck2 distributor0) [0]
+34: (       unload hoist0 crate8 truck0 depot0) [0]
+35: (         drop hoist0 crate8 crate4 depot0) [0]
+36: (               drive truck0 depot0 depot1) [0]
+37: ( drop hoist2 crate11 pallet5 distributor0) [0]
+38: (       unload hoist1 crate6 truck0 depot1) [0]
+39: (        drop hoist1 crate6 pallet7 depot1) [0]
+40: (        lift hoist1 crate1 pallet1 depot1) [0]
+41: (         load hoist1 crate1 truck0 depot1) [0]
+42: (         drive truck0 depot1 distributor1) [0]
+43: ( unload hoist3 crate1 truck0 distributor1) [0]
+44: (  drop hoist3 crate1 pallet6 distributor1) [0]
+45: ( unload hoist3 crate9 truck0 distributor1) [0]
+46: (   drop hoist3 crate9 crate1 distributor1) [0]
+47: (unload hoist3 crate13 truck0 distributor1) [0]
+48: (         drive truck0 distributor1 depot1) [0]
+49: ( drop hoist3 crate13 pallet3 distributor1) [0]
+50: (      unload hoist1 crate10 truck0 depot1) [0]
+51: (       drop hoist1 crate10 pallet1 depot1) [0]
+52: (        lift hoist0 crate0 pallet0 depot0) [0]
+53: (         drop hoist5 crate7 crate8 depot0) [0]
+54: (               drive truck0 depot1 depot0) [0]
+55: (         load hoist0 crate0 truck0 depot0) [0]
+56: (      unload hoist0 crate14 truck0 depot0) [0]
+57: (               drive truck0 depot0 depot1) [0]
+58: (       drop hoist0 crate14 pallet0 depot0) [0]
+59: (       unload hoist1 crate0 truck0 depot1) [0]
+60: (        drop hoist1 crate0 crate10 depot1) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.60 seconds encoding 
+                157.29 seconds searching
+                157.92 seconds total time
+
+memory used:     14.89 MBytes for problem representation
+                 51.52 MBytes for searching
+                 66.41 MBytes total
+
+

@@ -1,0 +1,24 @@
+Test 1 :
+Final value: 11 
+                  0.08 seconds total time
+                  0.12 MBytes total
+Test 2 :
+Final value: 17 
+                  0.15 seconds total time
+                  0.35 MBytes total
+Test 3 :
+Final value: 23 
+                  0.73 seconds total time
+                  1.79 MBytes total
+Test 4 :
+Final value: 29 
+                  2.06 seconds total time
+                 10.54 MBytes total
+Test 5 :
+Final value: 35 
+                  8.14 seconds total time
+                 54.44 MBytes total
+Test 6 :
+Final value: 41 
+                 44.44 seconds total time
+                285.23 MBytes total

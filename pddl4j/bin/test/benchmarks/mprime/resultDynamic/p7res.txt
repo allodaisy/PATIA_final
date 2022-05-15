@@ -1,0 +1,43 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p07.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (1728 actions, 384 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (        drink lobster pea surrey moravia manitoba moravia surrey) [0]
+01: ( drink lobster popover moravia manitoba arizona manitoba moravia) [0]
+02: (           overcome sciatica stimulation snickers mercury saturn) [0]
+03: (    drink shrimp popover moravia manitoba arizona moravia surrey) [0]
+04: (   drink popover muffin surrey moravia manitoba arizona manitoba) [0]
+05: (drink popover snickers moravia manitoba arizona arizona manitoba) [0]
+06: (       drink pea pepper surrey moravia manitoba manitoba moravia) [0]
+07: (     drink pea lobster moravia manitoba arizona manitoba moravia) [0]
+08: (    drink lobster pepper moravia manitoba arizona moravia surrey) [0]
+09: (                    feast learning pea snickers arizona manitoba) [0]
+10: (                feast learning snickers popover arizona manitoba) [0]
+11: (    drink pepper shrimp surrey moravia manitoba manitoba moravia) [0]
+12: (  drink shrimp haroset moravia manitoba arizona arizona manitoba) [0]
+13: (   drink pepper shrimp moravia manitoba arizona manitoba moravia) [0]
+14: (  drink shrimp haroset moravia manitoba arizona manitoba moravia) [0]
+15: (  drink haroset mutton moravia manitoba arizona arizona manitoba) [0]
+16: (               overcome jealousy learning popover mercury saturn) [0]
+17: (                  feast learning popover muffin arizona manitoba) [0]
+18: (                 succumb jealousy learning muffin mercury saturn) [0]
+
+time spent:       0.04 seconds parsing 
+                  0.25 seconds encoding 
+                  2.01 seconds searching
+                  2.30 seconds total time
+
+memory used:      3.90 MBytes for problem representation
+                  0.00 MBytes for searching
+                  3.90 MBytes total
+
+

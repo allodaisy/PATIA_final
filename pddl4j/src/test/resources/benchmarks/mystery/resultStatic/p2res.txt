@@ -1,0 +1,42 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p02.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (3632 actions, 322 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (       overcome grief-7 entertainment ham pluto jupiter) [0]
+01: (           feast entertainment ham muffin bosnia surrey) [0]
+02: (           overcome angina satiety onion mercury vulcan) [0]
+03: (             feast satiety onion cherry kentucky bosnia) [0]
+04: (      overcome jealousy-2 curiosity cherry vulcan pluto) [0]
+05: (overcome depression-1 entertainment muffin vulcan pluto) [0]
+06: (      feast entertainment muffin onion arizona kentucky) [0]
+07: (            feast satiety cherry flounder bosnia surrey) [0]
+08: (            feast curiosity cherry beef kentucky bosnia) [0]
+09: (      feast entertainment onion cherry arizona kentucky) [0]
+10: (         succumb angina satiety flounder mercury vulcan) [0]
+11: (       feast entertainment cherry beef arizona kentucky) [0]
+12: (   succumb depression-1 entertainment beef vulcan pluto) [0]
+13: (     overcome anxiety stimulation flounder vulcan pluto) [0]
+14: (   overcome prostatitis entertainment beef vulcan pluto) [0]
+15: (              feast curiosity beef cherry bosnia surrey) [0]
+16: (        succumb grief-7 entertainment beef vulcan pluto) [0]
+
+time spent:       0.03 seconds parsing 
+                  0.24 seconds encoding 
+                  9.12 seconds searching
+                  9.39 seconds total time
+
+memory used:      7.83 MBytes for problem representation
+                  0.00 MBytes for searching
+                  7.83 MBytes total
+
+

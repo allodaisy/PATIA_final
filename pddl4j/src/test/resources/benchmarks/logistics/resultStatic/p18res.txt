@@ -1,0 +1,103 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p18.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (944 actions, 200 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (     load-truck obj41 tru4 pos4) [0]
+01: (     load-truck obj22 tru2 pos2) [0]
+02: (drive-truck tru3 pos3 pos3 cit3) [0]
+03: (drive-truck tru4 pos4 pos4 cit4) [0]
+04: (     load-truck obj23 tru2 pos2) [0]
+05: (     load-truck obj42 tru4 pos4) [0]
+06: (     load-truck obj31 tru3 pos3) [0]
+07: (     load-truck obj33 tru3 pos3) [0]
+08: (     load-truck obj43 tru4 pos4) [0]
+09: (    fly-airplane apn1 apt2 apt1) [0]
+10: (     load-truck obj13 tru1 pos1) [0]
+11: (drive-truck tru3 pos3 pos3 cit3) [0]
+12: (drive-truck tru4 pos4 apt4 cit4) [0]
+13: (drive-truck tru2 pos2 apt2 cit2) [0]
+14: (     load-truck obj12 tru1 pos1) [0]
+15: (   unload-truck obj41 tru4 apt4) [0]
+16: (drive-truck tru3 pos3 apt3 cit3) [0]
+17: (    fly-airplane apn1 apt1 apt1) [0]
+18: (   unload-truck obj33 tru3 apt3) [0]
+19: (   unload-truck obj12 tru1 pos1) [0]
+20: (   unload-truck obj42 tru4 apt4) [0]
+21: (drive-truck tru1 pos1 apt1 cit1) [0]
+22: (drive-truck tru4 apt4 apt4 cit4) [0]
+23: (   unload-truck obj23 tru2 apt2) [0]
+24: (   unload-truck obj31 tru3 apt3) [0]
+25: (drive-truck tru4 apt4 apt4 cit4) [0]
+26: (drive-truck tru4 apt4 apt4 cit4) [0]
+27: (    fly-airplane apn1 apt1 apt3) [0]
+28: (   unload-truck obj22 tru2 apt2) [0]
+29: (   unload-truck obj13 tru1 apt1) [0]
+30: (  load-airplane obj33 apn1 apt3) [0]
+31: (drive-truck tru3 apt3 apt3 cit3) [0]
+32: (drive-truck tru1 apt1 apt1 cit1) [0]
+33: (drive-truck tru2 apt2 pos2 cit2) [0]
+34: (    fly-airplane apn1 apt3 apt2) [0]
+35: (  load-airplane obj23 apn1 apt2) [0]
+36: (  load-airplane obj22 apn1 apt2) [0]
+37: (drive-truck tru4 apt4 pos4 cit4) [0]
+38: (drive-truck tru4 pos4 pos4 cit4) [0]
+39: (    fly-airplane apn1 apt2 apt4) [0]
+40: (     load-truck obj21 tru2 pos2) [0]
+41: (drive-truck tru4 pos4 apt4 cit4) [0]
+42: (  load-airplane obj41 apn1 apt4) [0]
+43: (  load-airplane obj42 apn1 apt4) [0]
+44: (   unload-truck obj43 tru4 apt4) [0]
+45: (    fly-airplane apn1 apt4 apt4) [0]
+46: (drive-truck tru4 apt4 pos4 cit4) [0]
+47: (drive-truck tru3 apt3 apt3 cit3) [0]
+48: (unload-airplane obj22 apn1 apt4) [0]
+49: (drive-truck tru3 apt3 apt3 cit3) [0]
+50: (drive-truck tru4 pos4 apt4 cit4) [0]
+51: (     load-truck obj43 tru4 apt4) [0]
+52: (   unload-truck obj43 tru4 apt4) [0]
+53: (    fly-airplane apn1 apt4 apt1) [0]
+54: (  load-airplane obj13 apn1 apt1) [0]
+55: (     load-truck obj22 tru4 apt4) [0]
+56: (    fly-airplane apn1 apt1 apt2) [0]
+57: (    fly-airplane apn1 apt2 apt3) [0]
+58: (unload-airplane obj23 apn1 apt3) [0]
+59: (     load-truck obj23 tru3 apt3) [0]
+60: (unload-airplane obj41 apn1 apt3) [0]
+61: (drive-truck tru4 apt4 pos4 cit4) [0]
+62: (drive-truck tru1 apt1 apt1 cit1) [0]
+63: (unload-airplane obj42 apn1 apt3) [0]
+64: (drive-truck tru3 apt3 pos3 cit3) [0]
+65: (    fly-airplane apn1 apt3 apt1) [0]
+66: (   unload-truck obj23 tru3 pos3) [0]
+67: (   unload-truck obj22 tru4 pos4) [0]
+68: (drive-truck tru3 pos3 pos3 cit3) [0]
+69: (     load-truck obj22 tru4 pos4) [0]
+70: (     load-truck obj32 tru3 pos3) [0]
+71: (unload-airplane obj33 apn1 apt1) [0]
+72: (   unload-truck obj22 tru4 pos4) [0]
+73: (    fly-airplane apn1 apt1 apt2) [0]
+74: (    fly-airplane apn1 apt2 apt4) [0]
+75: (drive-truck tru4 pos4 pos4 cit4) [0]
+76: (   unload-truck obj32 tru3 pos3) [0]
+77: (unload-airplane obj13 apn1 apt4) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.06 seconds encoding 
+                  8.75 seconds searching
+                  8.83 seconds total time
+
+memory used:      1.66 MBytes for problem representation
+                  0.00 MBytes for searching
+                  1.66 MBytes total
+
+

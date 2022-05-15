@@ -1,0 +1,78 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p12.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (2784 actions, 164 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (                         feast intoxication lettuce hotdog arizona surrey) [0]
+01: (drink broccoli arugula quebec pennsylvania kentucky kentucky pennsylvania) [0]
+02: (      drink turkey hotdog arizona quebec pennsylvania pennsylvania quebec) [0]
+03: (                               feast love hotdog kale pennsylvania quebec) [0]
+04: (                               feast love kale pork kentucky pennsylvania) [0]
+05: (         drink lettuce lettuce arizona quebec pennsylvania arizona surrey) [0]
+06: (       drink turkey pork quebec pennsylvania kentucky pennsylvania quebec) [0]
+07: (               drink lettuce lettuce surrey arizona quebec quebec arizona) [0]
+08: (            drink wurst kale goias guanabara surrey kentucky pennsylvania) [0]
+09: (         drink lettuce lettuce arizona quebec pennsylvania arizona surrey) [0]
+10: (                                overcome anger rest arugula pluto jupiter) [0]
+11: (            drink wurst kale guanabara surrey arizona pennsylvania quebec) [0]
+12: (             drink lettuce lettuce surrey arizona quebec surrey guanabara) [0]
+13: (          drink kale lettuce quebec pennsylvania kentucky guanabara goias) [0]
+14: (           drink wurst broccoli surrey arizona quebec pennsylvania quebec) [0]
+15: (        drink lettuce lettuce quebec pennsylvania kentucky arizona surrey) [0]
+16: (         drink lettuce lettuce goias guanabara surrey pennsylvania quebec) [0]
+17: (      drink pork arugula quebec pennsylvania kentucky pennsylvania quebec) [0]
+18: (           drink lettuce turkey surrey arizona quebec pennsylvania quebec) [0]
+19: (          drink arugula wurst quebec pennsylvania kentucky arizona surrey) [0]
+20: (           drink lettuce broccoli guanabara surrey arizona quebec arizona) [0]
+21: (          drink lettuce arugula surrey arizona quebec pennsylvania quebec) [0]
+22: (                         overcome grief intoxication hotdog pluto jupiter) [0]
+23: (         drink lettuce lettuce arizona quebec pennsylvania arizona surrey) [0]
+24: (      drink broccoli pork arizona quebec pennsylvania pennsylvania quebec) [0]
+25: (     drink broccoli lettuce quebec pennsylvania kentucky surrey guanabara) [0]
+26: (                 drink wurst lettuce surrey arizona quebec quebec arizona) [0]
+27: (         drink arugula turkey quebec pennsylvania kentucky quebec arizona) [0]
+28: (                           feast rest arugula wurst kentucky pennsylvania) [0]
+29: (                                     feast rest wurst pork quebec arizona) [0]
+30: (             drink pork wurst quebec pennsylvania kentucky quebec arizona) [0]
+31: (        drink lettuce hotdog guanabara surrey arizona pennsylvania quebec) [0]
+32: (                    feast excitement broccoli wurst kentucky pennsylvania) [0]
+33: (       drink lettuce lettuce arizona quebec pennsylvania surrey guanabara) [0]
+34: (                               feast rest pork kale kentucky pennsylvania) [0]
+35: (    drink lettuce broccoli guanabara surrey arizona kentucky pennsylvania) [0]
+36: (           drink wurst lettuce arizona quebec pennsylvania quebec arizona) [0]
+37: (          drink hotdog hotdog quebec pennsylvania kentucky quebec arizona) [0]
+38: (   drink wurst arugula quebec pennsylvania kentucky kentucky pennsylvania) [0]
+39: (           drink lettuce hotdog surrey arizona quebec pennsylvania quebec) [0]
+40: (                       feast intoxication hotdog kale pennsylvania quebec) [0]
+41: (           drink turkey turkey arizona quebec pennsylvania arizona surrey) [0]
+42: (          drink lettuce turkey arizona quebec pennsylvania quebec arizona) [0]
+43: (      drink hotdog hotdog arizona quebec pennsylvania pennsylvania quebec) [0]
+44: (    drink lettuce pork quebec pennsylvania kentucky kentucky pennsylvania) [0]
+45: (           drink turkey lettuce surrey arizona quebec pennsylvania quebec) [0]
+46: (       drink turkey wurst arizona quebec pennsylvania pennsylvania quebec) [0]
+47: (     drink wurst arugula quebec pennsylvania kentucky pennsylvania quebec) [0]
+48: (                              feast love pork wurst kentucky pennsylvania) [0]
+49: (                              feast love wurst pork kentucky pennsylvania) [0]
+50: (    drink arugula pork quebec pennsylvania kentucky kentucky pennsylvania) [0]
+51: (          drink turkey hotdog quebec pennsylvania kentucky quebec arizona) [0]
+52: (      drink hotdog turkey arizona quebec pennsylvania pennsylvania quebec) [0]
+53: (                                    succumb anger rest kale pluto jupiter) [0]
+
+time spent:       0.07 seconds parsing 
+                  0.39 seconds encoding 
+                  0.31 seconds searching
+                  0.77 seconds total time
+
+memory used:      5.77 MBytes for problem representation
+                  0.00 MBytes for searching
+                  5.77 MBytes total
+
+

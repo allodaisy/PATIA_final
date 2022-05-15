@@ -1,0 +1,126 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p09.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (2996 actions, 243 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+000: (   drink guava flounder kentucky manitoba arizona arizona manitoba) [0]
+001: (        drink guava wurst manitoba arizona bavaria bavaria arizona) [0]
+002: (       drink wurst haroset arizona bavaria bosnia arizona manitoba) [0]
+003: (               overcome abrasion intoxication haroset earth uranus) [0]
+004: (   drink haroset hamburger manitoba arizona bavaria bosnia bavaria) [0]
+005: (                      overcome boils excitement guava earth uranus) [0]
+006: (       drink apple haroset arizona bavaria bosnia arizona manitoba) [0]
+007: (             overcome sciatica entertainment flounder saturn venus) [0]
+008: (  drink haroset haroset manitoba arizona bavaria manitoba kentucky) [0]
+009: (       drink haroset hotdog arizona bavaria bosnia bavaria arizona) [0]
+010: (        drink guava hotdog arizona bavaria bosnia arizona manitoba) [0]
+011: (     drink flounder guava manitoba arizona bavaria bavaria arizona) [0]
+012: (   drink haroset haroset kentucky manitoba arizona bavaria arizona) [0]
+013: (   drink hotdog flounder manitoba arizona bavaria arizona manitoba) [0]
+014: (    drink hotdog flounder arizona bavaria bosnia manitoba kentucky) [0]
+015: (               overcome dread entertainment flounder uranus saturn) [0]
+016: (      drink haroset wurst manitoba arizona bavaria bavaria arizona) [0]
+017: (                       succumb boils excitement guava earth uranus) [0]
+018: (          drink guava apple arizona bavaria bosnia bavaria arizona) [0]
+019: (          feast entertainment flounder hamburger manitoba kentucky) [0]
+020: (   drink haroset flounder arizona bavaria bosnia manitoba kentucky) [0]
+021: (            succumb sciatica entertainment hamburger uranus saturn) [0]
+022: (                     overcome angina excitement guava earth uranus) [0]
+023: (           overcome sciatica entertainment hamburger uranus saturn) [0]
+024: (drink flounder hamburger kentucky manitoba arizona bavaria arizona) [0]
+025: (     drink apple hamburger arizona bavaria bosnia arizona manitoba) [0]
+026: (               feast intoxication haroset hamburger bosnia bavaria) [0]
+027: (                     feast excitement guava haroset bosnia bavaria) [0]
+028: (          drink wurst apple arizona bavaria bosnia bavaria arizona) [0]
+029: (            succumb sciatica entertainment hamburger uranus saturn) [0]
+030: (   drink hamburger hotdog manitoba arizona bavaria bavaria arizona) [0]
+031: (    drink hamburger hotdog arizona bavaria bosnia arizona manitoba) [0]
+032: (  drink flounder hotdog manitoba arizona bavaria manitoba kentucky) [0]
+033: (        drink flounder guava arizona bavaria bosnia bosnia bavaria) [0]
+034: (       drink apple flounder arizona bavaria bosnia bavaria arizona) [0]
+035: (                    feast curiosity hotdog apple manitoba kentucky) [0]
+036: (       drink flounder apple arizona bavaria bosnia bavaria arizona) [0]
+037: (               feast intoxication hamburger haroset bosnia bavaria) [0]
+038: (       drink apple hotdog arizona bavaria bosnia manitoba kentucky) [0]
+039: (      drink hotdog apple kentucky manitoba arizona bavaria arizona) [0]
+040: (                       feast curiosity apple guava bavaria arizona) [0]
+041: (    drink hotdog flounder manitoba arizona bavaria bavaria arizona) [0]
+042: (       drink flounder wurst arizona bavaria bosnia bavaria arizona) [0]
+043: (       drink wurst flounder arizona bavaria bosnia bavaria arizona) [0]
+044: (         drink hotdog apple arizona bavaria bosnia bavaria arizona) [0]
+045: (                succumb abrasion intoxication haroset earth uranus) [0]
+046: (                  overcome anger intoxication haroset earth uranus) [0]
+047: (   drink flounder flounder arizona bavaria bosnia arizona manitoba) [0]
+048: (                   succumb anger intoxication haroset earth uranus) [0]
+049: (    drink flounder apple manitoba arizona bavaria arizona manitoba) [0]
+050: (                    overcome jealousy curiosity guava earth uranus) [0]
+051: (      drink flounder hotdog arizona bavaria bosnia bavaria arizona) [0]
+052: (                succumb dread entertainment hamburger saturn venus) [0]
+053: (        drink apple guava manitoba arizona bavaria bavaria arizona) [0]
+054: (                  overcome anger intoxication haroset earth uranus) [0]
+055: (         drink apple apple arizona bavaria bosnia arizona manitoba) [0]
+056: (     drink apple hamburger manitoba arizona bavaria bosnia bavaria) [0]
+057: (       drink apple flounder arizona bavaria bosnia bavaria arizona) [0]
+058: (          drink guava wurst arizona bavaria bosnia bavaria arizona) [0]
+059: (         drink wurst wurst arizona bavaria bosnia arizona manitoba) [0]
+060: (     drink hotdog flounder arizona bavaria bosnia arizona manitoba) [0]
+061: (     drink flounder wurst manitoba arizona bavaria bavaria arizona) [0]
+062: (     drink flounder wurst arizona bavaria bosnia manitoba kentucky) [0]
+063: (   drink wurst hamburger kentucky manitoba arizona bavaria arizona) [0]
+064: (     drink hamburger haroset arizona bavaria bosnia bosnia bavaria) [0]
+065: (      drink wurst wurst manitoba arizona bavaria manitoba kentucky) [0]
+066: (                        feast curiosity guava apple bosnia bavaria) [0]
+067: (                       feast curiosity apple hotdog bosnia bavaria) [0]
+068: (                 feast excitement haroset hamburger bosnia bavaria) [0]
+069: (           drink wurst apple arizona bavaria bosnia bosnia bavaria) [0]
+070: (                  succumb angina excitement hamburger earth uranus) [0]
+071: (      drink wurst hotdog kentucky manitoba arizona bavaria arizona) [0]
+072: (                      feast curiosity hotdog apple bavaria arizona) [0]
+073: (        drink wurst apple manitoba arizona bavaria bavaria arizona) [0]
+074: (         drink apple haroset arizona bavaria bosnia bosnia bavaria) [0]
+075: (              overcome angina entertainment hamburger saturn venus) [0]
+076: (        drink wurst haroset arizona bavaria bosnia bavaria arizona) [0]
+077: (              feast entertainment hamburger haroset bosnia bavaria) [0]
+078: (             overcome hangover entertainment haroset uranus saturn) [0]
+079: (                succumb angina entertainment haroset uranus saturn) [0]
+080: (           overcome loneliness entertainment haroset uranus saturn) [0]
+081: (       drink haroset hotdog arizona bavaria bosnia bavaria arizona) [0]
+082: (              succumb hangover entertainment haroset uranus saturn) [0]
+083: (      drink hotdog hamburger arizona bavaria bosnia bosnia bavaria) [0]
+084: (                   feast intoxication haroset guava bosnia bavaria) [0]
+085: (               overcome angina entertainment haroset uranus saturn) [0]
+086: (                succumb angina entertainment haroset uranus saturn) [0]
+087: (               overcome angina entertainment haroset uranus saturn) [0]
+088: (                  overcome dread excitement hamburger earth uranus) [0]
+089: (                 feast excitement hamburger haroset bosnia bavaria) [0]
+090: (              overcome abrasion entertainment haroset earth uranus) [0]
+091: (                       feast curiosity apple hotdog bosnia bavaria) [0]
+092: (                 succumb angina entertainment haroset earth uranus) [0]
+093: (                     succumb dread excitement haroset earth uranus) [0]
+094: (              succumb abrasion entertainment haroset uranus saturn) [0]
+095: (                overcome dread entertainment haroset uranus saturn) [0]
+096: (                overcome angina entertainment haroset earth uranus) [0]
+097: (                       feast curiosity hotdog wurst bosnia bavaria) [0]
+098: (              overcome prostatitis excitement haroset earth uranus) [0]
+099: (               succumb prostatitis excitement haroset earth uranus) [0]
+100: (                 overcome hangover excitement haroset earth uranus) [0]
+101: (                     succumb jealousy curiosity wurst earth uranus) [0]
+
+time spent:       0.06 seconds parsing 
+                  0.36 seconds encoding 
+                  2.00 seconds searching
+                  2.41 seconds total time
+
+memory used:      6.41 MBytes for problem representation
+                  0.00 MBytes for searching
+                  6.41 MBytes total
+
+

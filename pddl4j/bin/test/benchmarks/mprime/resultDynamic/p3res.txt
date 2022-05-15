@@ -1,0 +1,40 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p03.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+
+problem instantiation done successfully (3308 actions, 265 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (                         overcome angina love orange venus neptune) [0]
+01: (     drink orange marzipan bavaria guanabara goias bavaria arizona) [0]
+02: (      drink snickers lemon bavaria guanabara goias goias guanabara) [0]
+03: (                    feast triumph popover marzipan bavaria arizona) [0]
+04: (         drink popover pea bavaria guanabara goias bavaria arizona) [0]
+05: (    drink pepper mutton manitoba arizona bavaria guanabara bavaria) [0]
+06: (       drink melon mutton manitoba arizona bavaria bavaria arizona) [0]
+07: (       drink ham orange manitoba arizona bavaria guanabara bavaria) [0]
+08: (                          succumb angina love orange venus neptune) [0]
+09: (drink pepper chocolate arizona bavaria guanabara guanabara bavaria) [0]
+10: (                     feast love orange chocolate guanabara bavaria) [0]
+11: (                    overcome hangover love chocolate venus neptune) [0]
+12: (                        feast love chocolate ham guanabara bavaria) [0]
+13: (        drink melon ham arizona bavaria guanabara arizona manitoba) [0]
+14: (                     overcome grief triumph marzipan venus neptune) [0]
+15: (                           succumb hangover love ham venus neptune) [0]
+
+time spent:       0.02 seconds parsing 
+                  0.28 seconds encoding 
+                  0.13 seconds searching
+                  0.43 seconds total time
+
+memory used:      7.04 MBytes for problem representation
+                  0.00 MBytes for searching
+                  7.04 MBytes total
+
+
